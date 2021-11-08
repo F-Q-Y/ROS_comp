@@ -1,0 +1,48 @@
+[0.009s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_my_topic -- -j16 -l16
+[0.049s] [ 16%] [32m[1mLinking CXX executable topic[0m
+[0.113s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `initialize_topic()':
+[0.114s] topic.cpp:(.text+0x223): undefined reference to `N'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x22a): undefined reference to `M'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x241): undefined reference to `M'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x24a): undefined reference to `N'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x276): undefined reference to `M'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x27f): undefined reference to `N'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x2b2): undefined reference to `M'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x2e3): undefined reference to `N'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x314): undefined reference to `M'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x353): undefined reference to `M'
+[0.114s] /usr/bin/ld: topic.cpp:(.text+0x35c): undefined reference to `N'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x3cb): undefined reference to `M'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x3d4): undefined reference to `N'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x3e5): undefined reference to `M'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x412): undefined reference to `M'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x41b): undefined reference to `N'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x44a): undefined reference to `M'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x48f): undefined reference to `M'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x4bc): undefined reference to `N'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x4f9): undefined reference to `N'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x550): undefined reference to `M'
+[0.115s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `avail_pop()':
+[0.115s] topic.cpp:(.text+0x61f): undefined reference to `M'
+[0.115s] /usr/bin/ld: topic.cpp:(.text+0x628): undefined reference to `N'
+[0.115s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `start_read(int, int)':
+[0.115s] topic.cpp:(.text+0x839): undefined reference to `N'
+[0.115s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `get_loan(int)':
+[0.116s] topic.cpp:(.text+0x90d): undefined reference to `N'
+[0.116s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `publish(int)':
+[0.116s] topic.cpp:(.text+0x952): undefined reference to `N'
+[0.116s] /usr/bin/ld: topic.cpp:(.text+0x95f): undefined reference to `N'
+[0.116s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o:topic.cpp:(.text+0x98a): more undefined references to `N' follow
+[0.116s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `spin_once(int)':
+[0.116s] topic.cpp:(.text+0xa19): undefined reference to `M'
+[0.116s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `publisher(void*)':
+[0.116s] topic.cpp:(.text+0xb4d): undefined reference to `N'
+[0.116s] /usr/bin/ld: topic.cpp:(.text+0xb64): undefined reference to `M'
+[0.116s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `main':
+[0.116s] topic.cpp:(.text+0x1468): undefined reference to `N'
+[0.116s] /usr/bin/ld: topic.cpp:(.text+0x1471): undefined reference to `M'
+[0.116s] collect2: error: ld returned 1 exit status
+[0.116s] make[2]: *** [CMakeFiles/topic.dir/build.make:191: topic] Error 1
+[0.117s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2
+[0.117s] make: *** [Makefile:141: all] Error 2
+[0.117s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_my_topic -- -j16 -l16

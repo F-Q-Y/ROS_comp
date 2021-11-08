@@ -1,0 +1,4 @@
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:[m[K In lambda function:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:58:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   58 |         static int32_t [01;35m[Kcount[m[K = 0;
+      |                        [01;35m[K^~~~~[m[K

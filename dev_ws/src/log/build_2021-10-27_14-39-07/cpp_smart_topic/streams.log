@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_smart_topic -- -j16 -l16
+[0.037s] [35m[1mScanning dependencies of target topic_smart[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_smart.dir/src/topic_smart.cpp.o[0m
+[0.950s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In lambda function:
+[0.950s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:104:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.950s]   104 |       []([01;35m[Kstd_msgs::msg::Int32::ConstSharedPtr msg[m[K) {
+[0.950s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.479s] [100%] [32m[1mLinking CXX executable topic_smart[0m
+[3.629s] [100%] Built target topic_smart
+[3.637s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_smart_topic -- -j16 -l16
+[3.658s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/build/cpp_smart_topic
+[3.663s] -- Install configuration: ""
+[3.663s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart
+[3.665s] -- Set runtime path of "/home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart" to ""
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/ament_index/resource_index/package_run_dependencies/cpp_smart_topic
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/ament_index/resource_index/parent_prefix_path/cpp_smart_topic
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.sh
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.dsv
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.sh
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.dsv
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.bash
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.sh
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.zsh
+[3.665s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.dsv
+[3.666s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/package.dsv
+[3.666s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/ament_index/resource_index/packages/cpp_smart_topic
+[3.666s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig.cmake
+[3.666s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig-version.cmake
+[3.666s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/package.xml
+[3.667s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/build/cpp_smart_topic

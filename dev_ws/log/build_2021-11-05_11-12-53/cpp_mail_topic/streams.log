@@ -1,0 +1,37 @@
+[0.010s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_mail_topic -- -j16 -l16
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.218s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.453s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.936s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.964s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.110s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.113s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.127s] -- Looking for pthread.h
+[1.282s] -- Looking for pthread.h - found
+[1.282s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.345s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.345s] -- Looking for pthread_create in pthreads
+[1.436s] -- Looking for pthread_create in pthreads - not found
+[1.436s] -- Looking for pthread_create in pthread
+[1.609s] -- Looking for pthread_create in pthread - found
+[1.610s] -- Found Threads: TRUE  
+[1.979s] -- Configuring done
+[1.979s] CMake Error at CMakeLists.txt:26 (add_executable):
+[1.979s]   Cannot find source file:
+[1.979s] 
+[1.979s]     src/topic_smart.cpp
+[1.979s] 
+[1.979s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.979s]   .hpp .hxx .in .txx
+[1.979s] 
+[1.980s] 
+[1.980s] CMake Error at CMakeLists.txt:26 (add_executable):
+[1.980s]   No SOURCES given to target: topic_mail
+[1.980s] 
+[1.980s] 
+[1.980s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.983s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.986s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_mail_topic -- -j16 -l16

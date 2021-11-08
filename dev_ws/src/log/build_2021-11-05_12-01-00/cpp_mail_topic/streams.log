@@ -1,0 +1,91 @@
+[0.009s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_mail_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_mail_topic -- -j16 -l16
+[0.025s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.168s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.244s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.262s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.350s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.351s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.352s] -- Looking for pthread.h
+[0.397s] -- Looking for pthread.h - found
+[0.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.443s] -- Looking for pthread_create in pthreads
+[0.482s] -- Looking for pthread_create in pthreads - not found
+[0.482s] -- Looking for pthread_create in pthread
+[0.528s] -- Looking for pthread_create in pthread - found
+[0.529s] -- Found Threads: TRUE  
+[0.678s] -- Configuring done
+[0.683s] -- Generating done
+[0.684s] -- Build files have been written to: /home/fengqiyuan/dev_ws/src/build/cpp_mail_topic
+[0.699s] [35m[1mScanning dependencies of target topic_mail[0m
+[0.723s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_mail.dir/src/topic_mail.cpp.o[0m
+[1.655s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:8[m[K:
+[1.655s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:[m[K In member function ‘[01m[Kbuf_id topic_base::start_write()[m[K’:
+[1.655s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:121:13:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kavailable[m[K’ [[01;35m[K-Wvla[m[K]
+[1.655s]   121 |         int [01;35m[Kavailable[m[K[B];
+[1.655s]       |             [01;35m[K^~~~~~~~~[m[K
+[1.655s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:[m[K In function ‘[01m[Kvoid* reader(void*)[m[K’:
+[1.655s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:176:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.655s]   176 |             int [01;35m[Kv[m[K=buf->data;
+[1.655s]       |                 [01;35m[K^[m[K
+[1.662s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[1.662s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:18:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.662s]    18 |     Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+[1.662s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.670s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[1.670s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:37:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.670s]    37 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+[1.670s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.671s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[1.671s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:57:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.671s]    57 |         printf("[01;35m[K%d[m[K %d\n",[32m[Km_[m[K,n_);
+[1.671s]       |                 [01;35m[K~^[m[K       [32m[K~~[m[K
+[1.671s]       |                  [01;35m[K|[m[K       [32m[K|[m[K
+[1.671s]       |                  [01;35m[Kint[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+[1.671s]       |                 [32m[K%ld[m[K
+[1.671s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:57:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.671s]    57 |         printf("%d [01;35m[K%d[m[K\n",m_,[32m[Kn_[m[K);
+[1.671s]       |                    [01;35m[K~^[m[K       [32m[K~~[m[K
+[1.671s]       |                     [01;35m[K|[m[K       [32m[K|[m[K
+[1.672s]       |                     [01;35m[Kint[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+[1.672s]       |                    [32m[K%ld[m[K
+[1.672s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:58:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.672s]    58 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+[1.672s]       |                     [01;35m[K~^~[m[K
+[1.672s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:61:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.672s]    61 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+[1.672s]       |                     [01;35m[K~^~[m[K
+[1.672s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[1.672s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:67:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.672s]    67 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+[1.673s]       |                     [01;35m[K~^~~[m[K
+[1.673s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:70:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.673s]    70 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+[1.673s]       |                     [01;35m[K~^~~[m[K
+[2.022s] [100%] [32m[1mLinking CXX executable topic_mail[0m
+[2.090s] [100%] Built target topic_mail
+[2.097s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_mail_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_mail_topic -- -j16 -l16
+[2.119s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_mail_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/build/cpp_mail_topic
+[2.124s] -- Install configuration: ""
+[2.124s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/lib/cpp_mail_topic/topic_mail
+[2.124s] -- Set runtime path of "/home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/lib/cpp_mail_topic/topic_mail" to ""
+[2.124s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/ament_index/resource_index/package_run_dependencies/cpp_mail_topic
+[2.124s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/ament_index/resource_index/parent_prefix_path/cpp_mail_topic
+[2.124s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/environment/ament_prefix_path.sh
+[2.124s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/environment/ament_prefix_path.dsv
+[2.124s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/environment/path.sh
+[2.125s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/environment/path.dsv
+[2.125s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.bash
+[2.125s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.sh
+[2.125s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.zsh
+[2.125s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.dsv
+[2.125s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/package.dsv
+[2.125s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/ament_index/resource_index/packages/cpp_mail_topic
+[2.125s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/cmake/cpp_mail_topicConfig.cmake
+[2.125s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/cmake/cpp_mail_topicConfig-version.cmake
+[2.126s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/package.xml
+[2.127s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_mail_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/build/cpp_mail_topic

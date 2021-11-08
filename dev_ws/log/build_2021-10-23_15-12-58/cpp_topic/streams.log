@@ -1,0 +1,69 @@
+[0.060s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16
+[0.260s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.341s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.617s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.835s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.063s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.190s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.606s] -- Configuring done
+[1.713s] -- Generating done
+[1.772s] -- Build files have been written to: /home/fengqiyuan/dev_ws/build/cpp_topic
+[1.979s] [35m[1mScanning dependencies of target topic[0m
+[2.044s] [ 16%] [32mBuilding C object CMakeFiles/topic.dir/src/bits_op.c.o[0m
+[2.046s] [ 33%] [32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o[0m
+[2.899s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[2.899s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kbuf_id avail_pop()[m[K’:
+[2.899s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:145:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.899s]   145 |   int _v, v, [01;35m[Kv_[m[K; // pre-val, cur-val, post-val
+[2.899s]       |              [01;35m[K^~[m[K
+[2.901s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid* publisher(void*)[m[K’:
+[2.901s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:254:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.901s]   254 |   int [01;35m[Kcount[m[K = 0;
+[2.901s]       |       [01;35m[K^~~~~[m[K
+[2.905s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[2.905s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:14:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.905s]    14 |     Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+[2.905s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.913s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[2.913s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:33:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.913s]    33 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+[2.913s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.913s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[2.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:53:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.914s]    53 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+[2.914s]       |                     [01;35m[K~^~[m[K
+[2.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:56:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.914s]    56 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+[2.914s]       |                     [01;35m[K~^~[m[K
+[2.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[2.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:62:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.914s]    62 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+[2.915s]       |                     [01;35m[K~^~~[m[K
+[2.915s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:65:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.915s]    65 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+[2.915s]       |                     [01;35m[K~^~~[m[K
+[3.254s] [ 50%] [32m[1mLinking CXX executable topic[0m
+[3.323s] [100%] Built target topic
+[3.329s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16
+[3.354s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_topic
+[3.359s] -- Install configuration: ""
+[3.372s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_topic/lib/cpp_topic/topic
+[3.374s] -- Set runtime path of "/home/fengqiyuan/dev_ws/install/cpp_topic/lib/cpp_topic/topic" to ""
+[3.374s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[3.375s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[3.375s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[3.376s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[3.376s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/environment/path.sh
+[3.376s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[3.376s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/local_setup.bash
+[3.377s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/local_setup.sh
+[3.377s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[3.377s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[3.377s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/package.dsv
+[3.378s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[3.378s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[3.378s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[3.378s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_topic/share/cpp_topic/package.xml
+[3.383s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_topic

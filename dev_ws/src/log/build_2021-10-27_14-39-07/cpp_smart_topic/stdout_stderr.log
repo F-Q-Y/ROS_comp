@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target topic_smart[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/topic_smart.dir/src/topic_smart.cpp.o[0m
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In lambda function:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:104:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  104 |       []([01;35m[Kstd_msgs::msg::Int32::ConstSharedPtr msg[m[K) {
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable topic_smart[0m
+[100%] Built target topic_smart
+-- Install configuration: ""
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart
+-- Set runtime path of "/home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart" to ""
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/ament_index/resource_index/package_run_dependencies/cpp_smart_topic
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/ament_index/resource_index/parent_prefix_path/cpp_smart_topic
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.sh
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.dsv
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.sh
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.dsv
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.bash
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.sh
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.zsh
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.dsv
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/package.dsv
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/ament_index/resource_index/packages/cpp_smart_topic
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig.cmake
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig-version.cmake
+-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_smart_topic/share/cpp_smart_topic/package.xml

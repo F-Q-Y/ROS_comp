@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:43 (add_executable):
+  No SOURCES given to target: topic
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:386: cmake_check_build_system] Error 1

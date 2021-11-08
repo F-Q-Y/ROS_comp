@@ -1,0 +1,22 @@
+[0.001s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_mail_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_mail_topic -- -j16 -l16
+[0.001s] [100%] Built target topic_mail
+[0.001s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_mail_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_mail_topic -- -j16 -l16
+[0.002s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_mail_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/build/cpp_mail_topic
+[0.002s] -- Install configuration: ""
+[0.002s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/lib/cpp_mail_topic/topic_mail
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/ament_index/resource_index/package_run_dependencies/cpp_mail_topic
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/ament_index/resource_index/parent_prefix_path/cpp_mail_topic
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/environment/ament_prefix_path.sh
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/environment/ament_prefix_path.dsv
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/environment/path.sh
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/environment/path.dsv
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.bash
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.sh
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.zsh
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.dsv
+[0.003s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/package.dsv
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/ament_index/resource_index/packages/cpp_mail_topic
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/cmake/cpp_mail_topicConfig.cmake
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/cmake/cpp_mail_topicConfig-version.cmake
+[0.003s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_mail_topic/share/cpp_mail_topic/package.xml
+[0.004s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_mail_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/build/cpp_mail_topic

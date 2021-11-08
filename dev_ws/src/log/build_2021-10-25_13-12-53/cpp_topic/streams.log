@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/src/install/cpp_topic
+[0.019s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.160s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.299s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.441s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.441s]   ament_package_xml() package name 'cpp_topic' in '/package.xml' does not
+[0.441s]   match current PROJECT_NAME 'cpp_my_topic'.  You must call project() with
+[0.441s]   the same package name before.
+[0.441s] Call Stack (most recent call first):
+[0.441s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.441s]   CMakeLists.txt:53 (ament_package)
+[0.441s] 
+[0.442s] 
+[0.442s] -- Configuring incomplete, errors occurred!
+[0.442s] See also "/home/fengqiyuan/dev_ws/src/cpp_topic/CMakeFiles/CMakeOutput.log".
+[0.442s] See also "/home/fengqiyuan/dev_ws/src/cpp_topic/CMakeFiles/CMakeError.log".
+[0.446s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/src/install/cpp_topic

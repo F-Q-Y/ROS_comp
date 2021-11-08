@@ -1,0 +1,46 @@
+[0.103s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_topic
+[0.664s] -- The C compiler identification is GNU 9.3.0
+[0.978s] -- The CXX compiler identification is GNU 9.3.0
+[1.033s] -- Check for working C compiler: /usr/bin/cc
+[1.119s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.120s] -- Detecting C compiler ABI info
+[1.185s] -- Detecting C compiler ABI info - done
+[1.194s] -- Detecting C compile features
+[1.194s] -- Detecting C compile features - done
+[1.196s] -- Check for working CXX compiler: /usr/bin/c++
+[1.246s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.247s] -- Detecting CXX compiler ABI info
+[1.297s] -- Detecting CXX compiler ABI info - done
+[1.306s] -- Detecting CXX compile features
+[1.306s] -- Detecting CXX compile features - done
+[1.393s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.428s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.428s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.667s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.914s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.313s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.332s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.524s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.528s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.541s] -- Looking for pthread.h
+[2.587s] -- Looking for pthread.h - found
+[2.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.655s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.655s] -- Looking for pthread_create in pthreads
+[2.715s] -- Looking for pthread_create in pthreads - not found
+[2.715s] -- Looking for pthread_create in pthread
+[2.758s] -- Looking for pthread_create in pthread - found
+[2.759s] -- Found Threads: TRUE  
+[2.999s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[2.999s]   ament_target_dependencies() the passed package name 'bits_op' was not found
+[2.999s]   before
+[2.999s] Call Stack (most recent call first):
+[2.999s]   CMakeLists.txt:34 (ament_target_dependencies)
+[2.999s] 
+[2.999s] 
+[3.000s] -- Configuring incomplete, errors occurred!
+[3.000s] See also "/home/fengqiyuan/dev_ws/build/cpp_topic/CMakeFiles/CMakeOutput.log".
+[3.000s] See also "/home/fengqiyuan/dev_ws/build/cpp_topic/CMakeFiles/CMakeError.log".
+[3.005s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_topic

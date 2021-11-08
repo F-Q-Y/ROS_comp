@@ -1,0 +1,102 @@
+[0.009s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_smart_topic -- -j16 -l16
+[0.038s] [35m[1mScanning dependencies of target topic_smart[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_smart.dir/src/topic_smart.cpp.o[0m
+[0.920s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:8[m[K:
+[0.920s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:[m[K In function ‘[01m[Kvoid writer_atomic_load_last(int)[m[K’:
+[0.920s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:60:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.920s]    60 | void writer_atomic_load_last([01;35m[Kint w[m[K){
+[0.920s]       |                              [01;35m[K~~~~^[m[K
+[0.920s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:[m[K In function ‘[01m[Kvoid finish_write(int)[m[K’:
+[0.920s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:68:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.920s]    68 | void finish_write([01;35m[Kint w[m[K){
+[0.920s]       |                   [01;35m[K~~~~^[m[K
+[0.920s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:[m[K In function ‘[01m[Kvoid reader_atomic_store(int, int)[m[K’:
+[0.920s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:74:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.920s]    74 | void reader_atomic_store([01;35m[Kint r[m[K,int w){
+[0.920s]       |                          [01;35m[K~~~~^[m[K
+[0.920s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:74:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.920s]    74 | void reader_atomic_store(int r,[01;35m[Kint w[m[K){
+[0.920s]       |                                [01;35m[K~~~~^[m[K
+[0.920s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:[m[K In function ‘[01m[Kvoid start_read(int, int)[m[K’:
+[0.920s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:82:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.920s]    82 | void start_read([01;35m[Kint r[m[K,int w){
+[0.921s]       |                 [01;35m[K~~~~^[m[K
+[0.921s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:82:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.921s]    82 | void start_read(int r,[01;35m[Kint w[m[K){
+[0.921s]       |                       [01;35m[K~~~~^[m[K
+[0.921s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:[m[K In function ‘[01m[Kvoid finish_read(int)[m[K’:
+[0.921s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:92:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.921s]    92 | void finish_read([01;35m[Kint r[m[K){
+[0.921s]       |                  [01;35m[K~~~~^[m[K
+[0.921s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:[m[K In function ‘[01m[Kvoid writer_set(int, int)[m[K’:
+[0.922s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:96:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.922s]    96 | void writer_set([01;35m[Kint w[m[K,int num){
+[0.922s]       |                 [01;35m[K~~~~^[m[K
+[0.922s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:96:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knum[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.922s]    96 | void writer_set(int w,[01;35m[Kint num[m[K){
+[0.922s]       |                       [01;35m[K~~~~^~~[m[K
+[0.922s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:[m[K In function ‘[01m[Kvoid reader_get(int, int&)[m[K’:
+[0.922s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:119:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.922s]   119 | void reader_get([01;35m[Kint r[m[K,int& value){
+[0.922s]       |                 [01;35m[K~~~~^[m[K
+[0.922s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:119:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.922s]   119 | void reader_get(int r,[01;35m[Kint& value[m[K){
+[0.922s]       |                       [01;35m[K~~~~~^~~~~[m[K
+[0.926s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[0.926s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:18:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.926s]    18 |    Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+[0.926s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.926s] 
+[0.933s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[0.933s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:38:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.933s]    38 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+[0.933s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[0.933s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[0.933s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:59:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[0.933s]    59 |         printf("[01;35m[K%d[m[K %d\n",[32m[Km_[m[K,n_);
+[0.934s]       |                 [01;35m[K~^[m[K       [32m[K~~[m[K
+[0.934s]       |                  [01;35m[K|[m[K       [32m[K|[m[K
+[0.934s]       |                  [01;35m[Kint[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+[0.934s]       |                 [32m[K%ld[m[K
+[0.934s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:59:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[0.934s]    59 |         printf("%d [01;35m[K%d[m[K\n",m_,[32m[Kn_[m[K);
+[0.934s]       |                    [01;35m[K~^[m[K       [32m[K~~[m[K
+[0.934s]       |                     [01;35m[K|[m[K       [32m[K|[m[K
+[0.934s]       |                     [01;35m[Kint[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+[0.934s]       |                    [32m[K%ld[m[K
+[0.934s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:60:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.934s]    60 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+[0.934s]       |                     [01;35m[K~^~[m[K
+[0.934s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:63:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.934s]    63 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+[0.934s]       |                     [01;35m[K~^~[m[K
+[0.934s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[0.934s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:68:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.935s]    68 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+[0.935s]       |                     [01;35m[K~^~~[m[K
+[0.935s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:71:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.935s]    71 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+[0.935s]       |                     [01;35m[K~^~~[m[K
+[1.253s] [100%] [32m[1mLinking CXX executable topic_smart[0m
+[1.320s] [100%] Built target topic_smart
+[1.328s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_smart_topic -- -j16 -l16
+[1.348s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_smart_topic
+[1.354s] -- Install configuration: ""
+[1.354s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart
+[1.354s] -- Set runtime path of "/home/fengqiyuan/dev_ws/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart" to ""
+[1.354s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/ament_index/resource_index/package_run_dependencies/cpp_smart_topic
+[1.354s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/ament_index/resource_index/parent_prefix_path/cpp_smart_topic
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.sh
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.dsv
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.sh
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.dsv
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.bash
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.sh
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.zsh
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.dsv
+[1.355s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/package.dsv
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/ament_index/resource_index/packages/cpp_smart_topic
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig.cmake
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig-version.cmake
+[1.355s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/package.xml
+[1.356s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_smart_topic

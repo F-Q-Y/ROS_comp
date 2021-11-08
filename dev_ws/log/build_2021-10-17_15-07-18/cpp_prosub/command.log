@@ -1,0 +1,6 @@
+Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_prosub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_prosub -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_prosub
+Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_prosub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_prosub -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_prosub
+Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_prosub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_prosub -- -j16 -l16
+Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_prosub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_prosub -- -j16 -l16
+Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_prosub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_prosub
+Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_prosub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_prosub

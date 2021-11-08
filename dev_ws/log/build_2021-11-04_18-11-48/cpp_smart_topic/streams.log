@@ -1,0 +1,87 @@
+[0.040s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_smart_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_smart_topic
+[1.626s] -- The C compiler identification is GNU 9.3.0
+[2.175s] -- The CXX compiler identification is GNU 9.3.0
+[2.227s] -- Check for working C compiler: /usr/bin/cc
+[2.382s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.383s] -- Detecting C compiler ABI info
+[2.426s] -- Detecting C compiler ABI info - done
+[2.435s] -- Detecting C compile features
+[2.435s] -- Detecting C compile features - done
+[2.437s] -- Check for working CXX compiler: /usr/bin/c++
+[2.487s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.487s] -- Detecting CXX compiler ABI info
+[2.537s] -- Detecting CXX compiler ABI info - done
+[2.546s] -- Detecting CXX compile features
+[2.546s] -- Detecting CXX compile features - done
+[2.597s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.672s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.672s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.005s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.215s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.519s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.538s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.659s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.661s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.676s] -- Looking for pthread.h
+[3.803s] -- Looking for pthread.h - found
+[3.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.865s] -- Looking for pthread_create in pthreads
+[3.956s] -- Looking for pthread_create in pthreads - not found
+[3.956s] -- Looking for pthread_create in pthread
+[4.001s] -- Looking for pthread_create in pthread - found
+[4.002s] -- Found Threads: TRUE  
+[4.380s] -- Configuring done
+[4.399s] -- Generating done
+[4.400s] -- Build files have been written to: /home/fengqiyuan/dev_ws/build/cpp_smart_topic
+[4.405s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_smart_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_smart_topic
+[4.406s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_smart_topic -- -j16 -l16
+[4.431s] [35m[1mScanning dependencies of target topic_smart[0m
+[4.453s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_smart.dir/src/topic_smart.cpp.o[0m
+[5.755s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[5.755s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:18:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.755s]    18 |     Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+[5.755s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.763s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[5.763s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:37:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.763s]    37 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+[5.763s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.763s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[5.763s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:57:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[5.764s]    57 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+[5.764s]       |                     [01;35m[K~^~[m[K
+[5.764s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:60:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[5.764s]    60 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+[5.764s]       |                     [01;35m[K~^~[m[K
+[5.764s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[5.764s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:65:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[5.764s]    65 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+[5.764s]       |                     [01;35m[K~^~~[m[K
+[5.765s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:68:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[5.765s]    68 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+[5.765s]       |                     [01;35m[K~^~~[m[K
+[6.245s] [100%] [32m[1mLinking CXX executable topic_smart[0m
+[7.233s] [100%] Built target topic_smart
+[7.241s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_smart_topic -- -j16 -l16
+[7.261s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_smart_topic
+[7.266s] -- Install configuration: ""
+[7.266s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart
+[7.266s] -- Set runtime path of "/home/fengqiyuan/dev_ws/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart" to ""
+[7.266s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/ament_index/resource_index/package_run_dependencies/cpp_smart_topic
+[7.266s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/ament_index/resource_index/parent_prefix_path/cpp_smart_topic
+[7.266s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.sh
+[7.266s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.dsv
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.sh
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.dsv
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.bash
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.sh
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.zsh
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.dsv
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/package.dsv
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/ament_index/resource_index/packages/cpp_smart_topic
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig.cmake
+[7.267s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig-version.cmake
+[7.268s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/package.xml
+[7.269s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_smart_topic

@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (-) JobUnselected: {'identifier': 'cpp_comp_topic'}
+[0.000145] (-) JobUnselected: {'identifier': 'cpp_mail_topic'}
+[0.000170] (-) JobUnselected: {'identifier': 'cpp_prosub'}
+[0.000185] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000197] (-) JobUnselected: {'identifier': 'cpp_smart_topic'}
+[0.000211] (-) JobUnselected: {'identifier': 'cpp_topic'}
+[0.000223] (-) JobUnselected: {'identifier': 'fengqy_package'}
+[0.000236] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000250] (cpp_my_topic) JobQueued: {'identifier': 'cpp_my_topic', 'dependencies': OrderedDict()}
+[0.000264] (cpp_my_topic) JobStarted: {'identifier': 'cpp_my_topic'}
+[0.099461] (-) TimerEvent: {}
+[0.178820] (cpp_my_topic) JobProgress: {'identifier': 'cpp_my_topic', 'progress': 'cmake'}
+[0.199669] (-) TimerEvent: {}
+[0.244536] (cpp_my_topic) JobProgress: {'identifier': 'cpp_my_topic', 'progress': 'build'}
+[0.246398] (cpp_my_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic', '--', '-j16', '-l16'], 'cwd': '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fengqiyuan'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('SSH_AGENT_PID', '1342'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/78/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fengqiyuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/fengqiyuan/dev_ws'), ('TERM_PROGRAM_VERSION', '1.61.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/78/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/78/usr/share/code/code'), ('MANAGERPID', '1064'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=313a5ba1bd61c3d554b5657b6188c0d4'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fengqiyuan/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fengqiyuan'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('_', '/usr/bin/colcon'), ('http_proxy', 'http://127.0.0.1:8889/'), ('JOURNAL_STREAM', '8:39477'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fengqiyuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/fengqiyuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/qiqyfeng:@/tmp/.ICE-unix/1388,unix/qiqyfeng:/tmp/.ICE-unix/1388'), ('INVOCATION_ID', 'a548a1fc36754bf4ae63236250524929'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76dd7d84_cbd0_4bea_90bf_497c4615de91'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-29f8e702bb.sock'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/78/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=313a5ba1bd61c3d554b5657b6188c0d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('BREAKPAD_DUMP_LOCATION', '/home/fengqiyuan/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.299848] (-) TimerEvent: {}
+[0.400196] (-) TimerEvent: {}
+[0.500688] (-) TimerEvent: {}
+[0.601421] (-) TimerEvent: {}
+[0.702167] (-) TimerEvent: {}
+[0.783703] (cpp_my_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target topic\x1b[0m\n'}
+[0.802268] (-) TimerEvent: {}
+[0.847923] (cpp_my_topic) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o\x1b[0m\n'}
+[0.902494] (-) TimerEvent: {}
+[1.003276] (-) TimerEvent: {}
+[1.104077] (-) TimerEvent: {}
+[1.204857] (-) TimerEvent: {}
+[1.305681] (-) TimerEvent: {}
+[1.406428] (-) TimerEvent: {}
+[1.506874] (-) TimerEvent: {}
+[1.607656] (-) TimerEvent: {}
+[1.708433] (-) TimerEvent: {}
+[1.809190] (-) TimerEvent: {}
+[1.909867] (-) TimerEvent: {}
+[2.010383] (-) TimerEvent: {}
+[2.110646] (-) TimerEvent: {}
+[2.210919] (-) TimerEvent: {}
+[2.311187] (-) TimerEvent: {}
+[2.411468] (-) TimerEvent: {}
+[2.511736] (-) TimerEvent: {}
+[2.612017] (-) TimerEvent: {}
+[2.712291] (-) TimerEvent: {}
+[2.742799] (cpp_my_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[2.742980] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbuf_id avail_pop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.743092] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:155:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kv_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.743189] (cpp_my_topic) StderrLine: {'line': b'  155 |   int _v, v, \x1b[01;35m\x1b[Kv_\x1b[m\x1b[K; // pre-val, cur-val, post-val\n'}
+[2.743311] (cpp_my_topic) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.743545] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid spin_once(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.743621] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:242:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.743680] (cpp_my_topic) StderrLine: {'line': b'  242 |     int \x1b[01;35m\x1b[Kv\x1b[m\x1b[K = bufs[b]->data;\n'}
+[2.743730] (cpp_my_topic) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.745692] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* publisher(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.745775] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:266:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.745832] (cpp_my_topic) StderrLine: {'line': b'  266 |   int \x1b[01;35m\x1b[Kcount\x1b[m\x1b[K = 0;\n'}
+[2.745911] (cpp_my_topic) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.750249] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KProducer::Producer(const string&, const string&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.750334] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:17:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koutput\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.750389] (cpp_my_topic) StderrLine: {'line': b'   17 |     Producer(const std::string & name, \x1b[01;35m\x1b[Kconst std::string & output\x1b[m\x1b[K, size_t w)\n'}
+[2.750476] (cpp_my_topic) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.758068] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KConsumer::Consumer(const string&, const string&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.758152] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:36:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinput\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.758208] (cpp_my_topic) StderrLine: {'line': b'   36 |     Consumer(const std::string & name, \x1b[01;35m\x1b[Kconst std::string & input\x1b[m\x1b[K, size_t r)\n'}
+[2.758300] (cpp_my_topic) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.758497] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTopic::Topic(size_t, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.758588] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:56:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[2.758648] (cpp_my_topic) StderrLine: {'line': b'   56 |         for(int i=0;\x1b[01;35m\x1b[Ki<m\x1b[m\x1b[K;i++){\n'}
+[2.758707] (cpp_my_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~\x1b[m\x1b[K\n'}
+[2.758845] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:59:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[2.758926] (cpp_my_topic) StderrLine: {'line': b'   59 |         for(int j=0;\x1b[01;35m\x1b[Kj<n\x1b[m\x1b[K;j++){\n'}
+[2.758980] (cpp_my_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~\x1b[m\x1b[K\n'}
+[2.759389] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Topic::run()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.759547] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:65:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[2.759617] (cpp_my_topic) StderrLine: {'line': b'   65 |         for(int i=0;\x1b[01;35m\x1b[Ki<m_\x1b[m\x1b[K;i++){\n'}
+[2.759671] (cpp_my_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~\x1b[m\x1b[K\n'}
+[2.759720] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:68:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[2.759785] (cpp_my_topic) StderrLine: {'line': b'   68 |         for(int j=0;\x1b[01;35m\x1b[Kj<n_\x1b[m\x1b[K;j++){\n'}
+[2.759835] (cpp_my_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~\x1b[m\x1b[K\n'}
+[2.812402] (-) TimerEvent: {}
+[2.912688] (-) TimerEvent: {}
+[3.013020] (-) TimerEvent: {}
+[3.113521] (-) TimerEvent: {}
+[3.214127] (-) TimerEvent: {}
+[3.314713] (-) TimerEvent: {}
+[3.374838] (cpp_my_topic) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable topic\x1b[0m\n'}
+[3.414937] (-) TimerEvent: {}
+[3.515577] (-) TimerEvent: {}
+[3.616366] (-) TimerEvent: {}
+[3.717025] (-) TimerEvent: {}
+[3.817675] (-) TimerEvent: {}
+[3.918067] (-) TimerEvent: {}
+[4.018706] (-) TimerEvent: {}
+[4.119282] (-) TimerEvent: {}
+[4.208588] (cpp_my_topic) StdoutLine: {'line': b'[100%] Built target topic\n'}
+[4.215740] (cpp_my_topic) CommandEnded: {'returncode': 0}
+[4.219389] (-) TimerEvent: {}
+[4.233333] (cpp_my_topic) JobProgress: {'identifier': 'cpp_my_topic', 'progress': 'install'}
+[4.241038] (cpp_my_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic'], 'cwd': '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fengqiyuan'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('SSH_AGENT_PID', '1342'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/78/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fengqiyuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/fengqiyuan/dev_ws'), ('TERM_PROGRAM_VERSION', '1.61.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/78/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/78/usr/share/code/code'), ('MANAGERPID', '1064'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=313a5ba1bd61c3d554b5657b6188c0d4'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fengqiyuan/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fengqiyuan'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('_', '/usr/bin/colcon'), ('http_proxy', 'http://127.0.0.1:8889/'), ('JOURNAL_STREAM', '8:39477'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fengqiyuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/fengqiyuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/qiqyfeng:@/tmp/.ICE-unix/1388,unix/qiqyfeng:/tmp/.ICE-unix/1388'), ('INVOCATION_ID', 'a548a1fc36754bf4ae63236250524929'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76dd7d84_cbd0_4bea_90bf_497c4615de91'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-29f8e702bb.sock'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/78/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=313a5ba1bd61c3d554b5657b6188c0d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('BREAKPAD_DUMP_LOCATION', '/home/fengqiyuan/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.264717] (cpp_my_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.289755] (cpp_my_topic) StdoutLine: {'line': b'-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/lib/cpp_my_topic/topic\n'}
+[4.291036] (cpp_my_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/fengqiyuan/dev_ws/src/install/cpp_my_topic/lib/cpp_my_topic/topic" to ""\n'}
+[4.291651] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/ament_index/resource_index/package_run_dependencies/cpp_my_topic\n'}
+[4.292292] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/ament_index/resource_index/parent_prefix_path/cpp_my_topic\n'}
+[4.292714] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/environment/ament_prefix_path.sh\n'}
+[4.293216] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/environment/ament_prefix_path.dsv\n'}
+[4.293512] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/environment/path.sh\n'}
+[4.293796] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/environment/path.dsv\n'}
+[4.294046] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/local_setup.bash\n'}
+[4.294509] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/local_setup.sh\n'}
+[4.294863] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/local_setup.zsh\n'}
+[4.295137] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/local_setup.dsv\n'}
+[4.295399] (cpp_my_topic) StdoutLine: {'line': b'-- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/package.dsv\n'}
+[4.295658] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/ament_index/resource_index/packages/cpp_my_topic\n'}
+[4.295918] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/cmake/cpp_my_topicConfig.cmake\n'}
+[4.296177] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/cmake/cpp_my_topicConfig-version.cmake\n'}
+[4.296433] (cpp_my_topic) StdoutLine: {'line': b'-- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_my_topic/share/cpp_my_topic/package.xml\n'}
+[4.299438] (cpp_my_topic) CommandEnded: {'returncode': 0}
+[4.319511] (-) TimerEvent: {}
+[4.419887] (-) TimerEvent: {}
+[4.520547] (-) TimerEvent: {}
+[4.621321] (-) TimerEvent: {}
+[4.666792] (cpp_my_topic) JobEnded: {'identifier': 'cpp_my_topic', 'rc': 0}
+[4.667315] (-) EventReactorShutdown: {}

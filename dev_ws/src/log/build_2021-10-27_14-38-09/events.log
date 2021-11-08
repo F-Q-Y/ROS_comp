@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000394] (-) JobUnselected: {'identifier': 'cpp_comp_topic'}
+[0.000427] (-) JobUnselected: {'identifier': 'cpp_my_topic'}
+[0.000445] (-) JobUnselected: {'identifier': 'cpp_prosub'}
+[0.000546] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000599] (-) JobUnselected: {'identifier': 'cpp_topic'}
+[0.000733] (-) JobUnselected: {'identifier': 'fengqy_package'}
+[0.000830] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000981] (cpp_smart_topic) JobQueued: {'identifier': 'cpp_smart_topic', 'dependencies': OrderedDict()}
+[0.001018] (cpp_smart_topic) JobStarted: {'identifier': 'cpp_smart_topic'}
+[0.008511] (cpp_smart_topic) JobProgress: {'identifier': 'cpp_smart_topic', 'progress': 'cmake'}
+[0.008746] (cpp_smart_topic) Command: {'cmd': ['/usr/bin/cmake', '/home/fengqiyuan/dev_ws/src/cpp_smart_topic', '-DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/src/install/cpp_smart_topic'], 'cwd': '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fengqiyuan'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('SSH_AGENT_PID', '1729'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/78/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fengqiyuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/fengqiyuan/dev_ws'), ('TERM_PROGRAM_VERSION', '1.61.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/78/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/78/usr/share/code/code'), ('MANAGERPID', '1548'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=865392ecbdb9e16603bc15f56178ce33'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fengqiyuan/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fengqiyuan'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('http_proxy', 'http://127.0.0.1:8889/'), ('JOURNAL_STREAM', '8:52472'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fengqiyuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/fengqiyuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/qiqyfeng:@/tmp/.ICE-unix/1773,unix/qiqyfeng:/tmp/.ICE-unix/1773'), ('INVOCATION_ID', 'bb6de89c055c485398b6e3819e1f6f9a'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3be8ddb8_73ad_4d60_999b_48c7072125c0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-29f8e702bb.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1619'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/78/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=865392ecbdb9e16603bc15f56178ce33'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('BREAKPAD_DUMP_LOCATION', '/home/fengqiyuan/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100188] (-) TimerEvent: {}
+[0.200791] (-) TimerEvent: {}
+[0.259147] (cpp_smart_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.301010] (-) TimerEvent: {}
+[0.393514] (cpp_smart_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.401168] (-) TimerEvent: {}
+[0.436928] (cpp_smart_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.501372] (-) TimerEvent: {}
+[0.601963] (-) TimerEvent: {}
+[0.628343] (cpp_smart_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.630418] (cpp_smart_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.674466] (cpp_smart_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.682737] (cpp_smart_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.683077] (cpp_smart_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.685155] (cpp_smart_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.702046] (-) TimerEvent: {}
+[0.735429] (cpp_smart_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.736139] (cpp_smart_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.787743] (cpp_smart_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.796158] (cpp_smart_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.796496] (cpp_smart_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.802110] (-) TimerEvent: {}
+[0.815438] (cpp_smart_topic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.862878] (cpp_smart_topic) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.863092] (cpp_smart_topic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.902216] (-) TimerEvent: {}
+[1.002433] (-) TimerEvent: {}
+[1.102787] (-) TimerEvent: {}
+[1.139420] (cpp_smart_topic) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.202891] (-) TimerEvent: {}
+[1.303135] (-) TimerEvent: {}
+[1.324360] (cpp_smart_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.365799] (cpp_smart_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.403385] (-) TimerEvent: {}
+[1.504095] (-) TimerEvent: {}
+[1.604815] (-) TimerEvent: {}
+[1.705430] (-) TimerEvent: {}
+[1.729573] (cpp_smart_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.805546] (-) TimerEvent: {}
+[1.812584] (cpp_smart_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.876021] (cpp_smart_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.905720] (-) TimerEvent: {}
+[2.006393] (-) TimerEvent: {}
+[2.028864] (cpp_smart_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.035716] (cpp_smart_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.040007] (cpp_smart_topic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.106469] (-) TimerEvent: {}
+[2.115359] (cpp_smart_topic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.115753] (cpp_smart_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.203409] (cpp_smart_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.203621] (cpp_smart_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.206535] (-) TimerEvent: {}
+[2.260574] (cpp_smart_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.260839] (cpp_smart_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.304507] (cpp_smart_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.305301] (cpp_smart_topic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.306604] (-) TimerEvent: {}
+[2.406956] (-) TimerEvent: {}
+[2.507542] (-) TimerEvent: {}
+[2.607870] (-) TimerEvent: {}
+[2.648387] (cpp_smart_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.652875] (cpp_smart_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[2.653842] (cpp_smart_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/fengqiyuan/dev_ws/src/build/cpp_smart_topic\n'}
+[2.657743] (cpp_smart_topic) CommandEnded: {'returncode': 0}
+[2.658208] (cpp_smart_topic) JobProgress: {'identifier': 'cpp_smart_topic', 'progress': 'build'}
+[2.658747] (cpp_smart_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic', '--', '-j16', '-l16'], 'cwd': '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fengqiyuan'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('SSH_AGENT_PID', '1729'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/78/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fengqiyuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/fengqiyuan/dev_ws'), ('TERM_PROGRAM_VERSION', '1.61.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/78/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/78/usr/share/code/code'), ('MANAGERPID', '1548'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=865392ecbdb9e16603bc15f56178ce33'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fengqiyuan/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fengqiyuan'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('http_proxy', 'http://127.0.0.1:8889/'), ('JOURNAL_STREAM', '8:52472'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fengqiyuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/fengqiyuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/qiqyfeng:@/tmp/.ICE-unix/1773,unix/qiqyfeng:/tmp/.ICE-unix/1773'), ('INVOCATION_ID', 'bb6de89c055c485398b6e3819e1f6f9a'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3be8ddb8_73ad_4d60_999b_48c7072125c0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-29f8e702bb.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1619'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/78/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=865392ecbdb9e16603bc15f56178ce33'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('BREAKPAD_DUMP_LOCATION', '/home/fengqiyuan/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.684375] (cpp_smart_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target topic_smart\x1b[0m\n'}
+[2.690637] (cpp_smart_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/topic_smart.dir/src/topic_smart.cpp.o\x1b[0m\n'}
+[2.703511] (cpp_smart_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_smart\x1b[0m\n'}
+[2.707946] (-) TimerEvent: {}
+[2.733433] (cpp_smart_topic) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[2.733624] (cpp_smart_topic) StderrLine: {'line': b"(.text+0x24): undefined reference to `main'\n"}
+[2.733689] (cpp_smart_topic) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[2.734520] (cpp_smart_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/topic_smart.dir/build.make:131: topic_smart] Error 1\n'}
+[2.734671] (cpp_smart_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic_smart.dir/all] Error 2\n'}
+[2.734817] (cpp_smart_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.736054] (cpp_smart_topic) CommandEnded: {'returncode': 2}
+[2.756689] (cpp_smart_topic) JobEnded: {'identifier': 'cpp_smart_topic', 'rc': 2}
+[2.767237] (-) EventReactorShutdown: {}

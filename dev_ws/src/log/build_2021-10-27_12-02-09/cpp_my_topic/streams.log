@@ -1,0 +1,2 @@
+[0.690s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_my_topic -- -j16 -l16
+[0.859s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_my_topic -- -j16 -l16

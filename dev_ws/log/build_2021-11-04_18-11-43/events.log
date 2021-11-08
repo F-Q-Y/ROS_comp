@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.001358] (-) JobUnselected: {'identifier': 'cpp_comp_topic'}
+[0.001444] (-) JobUnselected: {'identifier': 'cpp_my_topic'}
+[0.001495] (-) JobUnselected: {'identifier': 'cpp_prosub'}
+[0.001540] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001580] (-) JobUnselected: {'identifier': 'cpp_topic'}
+[0.001621] (-) JobUnselected: {'identifier': 'fengqy_package'}
+[0.001659] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001703] (cpp_smart_topic) JobQueued: {'identifier': 'cpp_smart_topic', 'dependencies': OrderedDict()}
+[0.001751] (cpp_smart_topic) JobStarted: {'identifier': 'cpp_smart_topic'}
+[0.085077] (cpp_smart_topic) JobEnded: {'identifier': 'cpp_smart_topic', 'rc': 0}
+[0.088169] (-) EventReactorShutdown: {}

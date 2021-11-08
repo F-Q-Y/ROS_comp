@@ -1,0 +1,65 @@
+[0.008s] Invoking command in '/home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_comp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic
+[0.114s] -- The C compiler identification is GNU 9.3.0
+[0.150s] -- The CXX compiler identification is GNU 9.3.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.253s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.254s] -- Detecting C compiler ABI info
+[0.330s] -- Detecting C compiler ABI info - done
+[0.341s] -- Detecting C compile features
+[0.341s] -- Detecting C compile features - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++
+[0.393s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.394s] -- Detecting CXX compiler ABI info
+[0.445s] -- Detecting CXX compiler ABI info - done
+[0.453s] -- Detecting CXX compile features
+[0.454s] -- Detecting CXX compile features - done
+[0.504s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.556s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.887s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.078s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.155s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.510s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.580s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.767s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.774s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.778s] -- Looking for pthread.h
+[1.826s] -- Looking for pthread.h - found
+[1.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.872s] -- Looking for pthread_create in pthreads
+[1.912s] -- Looking for pthread_create in pthreads - not found
+[1.912s] -- Looking for pthread_create in pthread
+[1.957s] -- Looking for pthread_create in pthread - found
+[1.958s] -- Found Threads: TRUE  
+[2.378s] -- Configuring done
+[2.382s] -- Generating done
+[2.383s] -- Build files have been written to: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic
+[2.388s] Invoked command in '/home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_comp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic
+[2.389s] Invoking command in '/home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic -- -j16 -l16
+[2.416s] [35m[1mScanning dependencies of target topic_comp[0m
+[2.438s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_comp.dir/src/topic_comp.cpp.o[0m
+[5.845s] [100%] [32m[1mLinking CXX executable topic_comp[0m
+[6.002s] [100%] Built target topic_comp
+[6.011s] Invoked command in '/home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic -- -j16 -l16
+[6.032s] Invoking command in '/home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic
+[6.037s] -- Install configuration: ""
+[6.038s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/lib/cpp_comp_topic/topic_comp
+[6.039s] -- Set runtime path of "/home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/lib/cpp_comp_topic/topic_comp" to ""
+[6.039s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_comp_topic
+[6.039s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_comp_topic
+[6.039s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/environment/ament_prefix_path.sh
+[6.039s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/environment/ament_prefix_path.dsv
+[6.039s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/environment/path.sh
+[6.039s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/environment/path.dsv
+[6.040s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.bash
+[6.040s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.sh
+[6.040s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.zsh
+[6.040s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.dsv
+[6.040s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/package.dsv
+[6.040s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/ament_index/resource_index/packages/cpp_comp_topic
+[6.040s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/cmake/cpp_comp_topicConfig.cmake
+[6.040s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/cmake/cpp_comp_topicConfig-version.cmake
+[6.040s] -- Installing: /home/fengqiyuan/dev_ws/src/cpp_comp_topic/install/cpp_comp_topic/share/cpp_comp_topic/package.xml
+[6.042s] Invoked command in '/home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/cpp_comp_topic/build/cpp_comp_topic

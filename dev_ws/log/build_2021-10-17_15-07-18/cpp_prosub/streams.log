@@ -1,0 +1,65 @@
+[0.009s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_prosub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_prosub -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_prosub
+[0.045s] -- The C compiler identification is GNU 9.3.0
+[0.079s] -- The CXX compiler identification is GNU 9.3.0
+[0.082s] -- Check for working C compiler: /usr/bin/cc
+[0.127s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.128s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.195s] -- Check for working CXX compiler: /usr/bin/c++
+[0.248s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.249s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.364s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.364s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.505s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.539s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.583s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.601s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.654s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.693s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.694s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.695s] -- Looking for pthread.h
+[0.740s] -- Looking for pthread.h - found
+[0.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.800s] -- Looking for pthread_create in pthreads
+[0.854s] -- Looking for pthread_create in pthreads - not found
+[0.855s] -- Looking for pthread_create in pthread
+[0.902s] -- Looking for pthread_create in pthread - found
+[0.903s] -- Found Threads: TRUE  
+[1.061s] -- Configuring done
+[1.065s] -- Generating done
+[1.066s] -- Build files have been written to: /home/fengqiyuan/dev_ws/build/cpp_prosub
+[1.069s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_prosub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_prosub -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_prosub
+[1.071s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_prosub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_prosub -- -j16 -l16
+[1.095s] [35m[1mScanning dependencies of target producer_subscriber[0m
+[1.172s] [ 50%] [32mBuilding CXX object CMakeFiles/producer_subscriber.dir/src/two_node_pipeline.cpp.o[0m
+[4.536s] [100%] [32m[1mLinking CXX executable producer_subscriber[0m
+[4.679s] [100%] Built target producer_subscriber
+[4.685s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_prosub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_prosub -- -j16 -l16
+[4.705s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_prosub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_prosub
+[4.710s] -- Install configuration: ""
+[4.710s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/lib/cpp_prosub/producer_subscriber
+[4.711s] -- Set runtime path of "/home/fengqiyuan/dev_ws/install/cpp_prosub/lib/cpp_prosub/producer_subscriber" to ""
+[4.711s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/ament_index/resource_index/package_run_dependencies/cpp_prosub
+[4.711s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/ament_index/resource_index/parent_prefix_path/cpp_prosub
+[4.711s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/environment/ament_prefix_path.sh
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/environment/ament_prefix_path.dsv
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/environment/path.sh
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/environment/path.dsv
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/local_setup.bash
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/local_setup.sh
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/local_setup.zsh
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/local_setup.dsv
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/package.dsv
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/ament_index/resource_index/packages/cpp_prosub
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/cmake/cpp_prosubConfig.cmake
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/cmake/cpp_prosubConfig-version.cmake
+[4.712s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/package.xml
+[4.714s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_prosub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_prosub

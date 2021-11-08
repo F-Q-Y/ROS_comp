@@ -1,0 +1,9 @@
+[0.009s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_smart_topic -- -j16 -l16
+[0.045s] [ 50%] [32m[1mLinking CXX executable topic_smart[0m
+[0.078s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.078s] (.text+0x24): undefined reference to `main'
+[0.078s] collect2: error: ld returned 1 exit status
+[0.079s] make[2]: *** [CMakeFiles/topic_smart.dir/build.make:131: topic_smart] Error 1
+[0.079s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic_smart.dir/all] Error 2
+[0.079s] make: *** [Makefile:141: all] Error 2
+[0.081s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_smart_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_smart_topic -- -j16 -l16

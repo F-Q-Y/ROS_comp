@@ -1,0 +1,4 @@
+source;share/fengqy_package/local_setup.bash
+source;share/fengqy_package/local_setup.dsv
+source;share/fengqy_package/local_setup.sh
+source;share/fengqy_package/local_setup.zsh

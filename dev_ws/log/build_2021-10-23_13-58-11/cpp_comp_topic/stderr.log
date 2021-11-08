@@ -1,0 +1,8 @@
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:[m[K In lambda function:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:59:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   59 |         static int32_t [01;35m[Kcount[m[K = 0;
+      |                        [01;35m[K^~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:37:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   37 |   Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

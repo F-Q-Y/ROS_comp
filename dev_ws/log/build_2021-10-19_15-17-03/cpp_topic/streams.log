@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.167s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.193s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.308s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.452s] -- Configuring done
+[0.458s] -- Generating done
+[0.459s] -- Build files have been written to: /home/fengqiyuan/dev_ws/build/cpp_topic
+[0.487s] [ 16%] [32m[1mLinking CXX executable topic[0m
+[0.550s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `avail_pop()':
+[0.550s] topic.cpp:(.text+0x32a): undefined reference to `get_lowest(unsigned int)'
+[0.550s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `publish(int)':
+[0.550s] topic.cpp:(.text+0x67e): undefined reference to `count_one(unsigned int)'
+[0.550s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `Producer::run()':
+[0.550s] topic.cpp:(.text._ZN8Producer3runEv[_ZN8Producer3runEv]+0x25): undefined reference to `spawn(void* (*)(void*), void*)'
+[0.551s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `Consumer::run()':
+[0.551s] topic.cpp:(.text._ZN8Consumer3runEv[_ZN8Consumer3runEv]+0x25): undefined reference to `spawn(void* (*)(void*), void*)'
+[0.551s] collect2: error: ld returned 1 exit status
+[0.551s] make[2]: *** [CMakeFiles/topic.dir/build.make:191: topic] Error 1
+[0.551s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2
+[0.551s] make: *** [Makefile:141: all] Error 2
+[0.553s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16

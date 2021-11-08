@@ -1,0 +1,223 @@
+[0.010s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.173s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.199s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.313s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.315s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.462s] -- Configuring done
+[0.468s] -- Generating done
+[0.469s] -- Build files have been written to: /home/fengqiyuan/dev_ws/build/cpp_topic
+[0.495s] [ 16%] [32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o[0m
+[0.700s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[0.700s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kbuf_id avail_pop()[m[K’:
+[0.701s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:92:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.701s]    92 |   int _v, v, [01;35m[Kv_[m[K; // pre-val, cur-val, post-val
+[0.701s]       |              [01;35m[K^~[m[K
+[0.701s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid spin_once(int)[m[K’:
+[0.701s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:179:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.701s]   179 |     int [01;35m[Kv[m[K = bufs[b]->data;
+[0.701s]       |         [01;35m[K^[m[K
+[0.859s] In file included from [01m[K/opt/ros/foxy/include/rcutils/error_handling.h:34[m[K,
+[0.859s]                  from [01m[K/opt/ros/foxy/include/rcutils/logging.h:23[m[K,
+[0.860s]                  from [01m[K/opt/ros/foxy/include/rmw/types.h:28[m[K,
+[0.860s]                  from [01m[K/opt/ros/foxy/include/rcl/types.h:18[m[K,
+[0.860s]                  from [01m[K/opt/ros/foxy/include/rcl/arguments.h:20[m[K,
+[0.860s]                  from [01m[K/opt/ros/foxy/include/rcl/context.h:26[m[K,
+[0.860s]                  from [01m[K/opt/ros/foxy/include/rcl/guard_condition.h:24[m[K,
+[0.860s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:29[m[K,
+[0.860s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.860s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.860s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.860s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:9[m[K:
+[0.860s] [01m[K/usr/include/string.h:[m[K At global scope:
+[0.860s] [01m[K/usr/include/string.h:61:14:[m[K [01;31m[Kerror: [m[Kconflicting declaration of ‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ with ‘[01m[KC[m[K’ linkage
+[0.860s]    61 | extern void *[01;31m[Kmemset[m[K (void *__s, int __c, size_t __n) __THROW __nonnull ((1));
+[0.860s]       |              [01;31m[K^~~~~~[m[K
+[0.860s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[0.861s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:16:7:[m[K [01;36m[Knote: [m[Kprevious declaration with ‘[01m[KC++[m[K’ linkage
+[0.861s]    16 | void *[01;36m[Kmemset[m[K(void *s, int c, size_t n){
+[0.861s]       |       [01;36m[K^~~~~~[m[K
+[0.861s] In file included from [01m[K/opt/ros/foxy/include/rcutils/error_handling.h:34[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rcutils/logging.h:23[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rmw/types.h:28[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rcl/types.h:18[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rcl/arguments.h:20[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rcl/context.h:26[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rcl/guard_condition.h:24[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:29[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.861s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.861s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:9[m[K:
+[0.861s] [01m[K/usr/include/string.h:61:14:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kvoid* memset(void*, int, size_t) throw ()[m[K’ has a different exception specifier
+[0.861s]    61 | extern void *[01;31m[Kmemset[m[K (void *__s, int __c, size_t __n) __THROW __nonnull ((1));
+[0.862s]       |              [01;31m[K^~~~~~[m[K
+[0.862s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[0.862s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:16:7:[m[K [01;36m[Knote: [m[Kfrom previous declaration ‘[01m[Kvoid* memset(void*, int, size_t)[m[K’
+[0.862s]    16 | void *[01;36m[Kmemset[m[K(void *s, int c, size_t n){
+[0.862s]       |       [01;36m[K^~~~~~[m[K
+[0.923s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+[0.923s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[0.923s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+[0.923s]     1 | #define N [01;31m[K3[m[K
+[0.923s]       |           [01;31m[K^[m[K
+[0.923s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+[0.923s]     1 | #define N [01;31m[K3[m[K
+[0.923s]       |           [01;31m[K^[m[K
+[1.070s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before numeric constant
+[1.070s]     2 | #define M [01;31m[K4[m[K
+[1.070s]       |           [01;31m[K^[m[K
+[1.070s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+[1.070s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before numeric constant
+[1.070s]     2 | #define M [01;31m[K4[m[K
+[1.070s]       |           [01;31m[K^[m[K
+[1.070s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+[1.070s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+[1.070s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[1.070s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[1.070s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.070s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.070s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.071s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.071s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.071s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.071s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.071s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:9[m[K:
+[1.071s] [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:48:47:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (2, should be 1)
+[1.071s]    48 | struct HasHeader<M, decltype((void) M::header)[01;31m[K>[m[K: std::true_type {};
+[1.071s]       |                                               [01;31m[K^[m[K
+[1.071s] [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:41:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<<typeprefixerror><anonymous> > struct libstatistics_collector::topic_statistics_collector::HasHeader[m[K’
+[1.071s]    41 | struct [01;36m[KHasHeader[m[K : public std::false_type {};
+[1.071s]       |        [01;36m[K^~~~~~~~~[m[K
+[1.071s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+[1.071s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[1.071s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before numeric constant
+[1.071s]     2 | #define M [01;31m[K4[m[K
+[1.071s]       |           [01;31m[K^[m[K
+[1.071s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+[1.071s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[1.071s]     2 | #define M [01;31m[K4[m[K
+[1.071s]       |           [01;31m[K^[m[K
+[1.072s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before numeric constant
+[1.072s]     2 | #define M [01;31m[K4[m[K
+[1.072s]       |           [01;31m[K^[m[K
+[1.072s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+[1.072s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+[1.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[1.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[1.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.072s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:9[m[K:
+[1.072s] [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:71:56:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[1.072s]    71 | struct TimeStamp<M, typename std::enable_if<HasHeader<M[01;36m[K>[m[K::value>::type>
+[1.072s]       |                                                        [01;36m[K^[m[K
+[1.072s] [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:71:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.072s]    71 | struct TimeStamp<M, typename std::enable_if<HasHeader<M>::value[01;31m[K>[m[K::type>
+[1.072s]       |                                                                [01;31m[K^[m[K
+[1.073s] [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:71:71:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (2, should be 1)
+[1.073s]    71 | struct TimeStamp<M, typename std::enable_if<HasHeader<M>::value>::type[01;31m[K>[m[K
+[1.073s]       |                                                                       [01;31m[K^[m[K
+[1.073s] [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:57:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<<typeprefixerror><anonymous> > struct libstatistics_collector::topic_statistics_collector::TimeStamp[m[K’
+[1.073s]    57 | struct [01;36m[KTimeStamp[m[K
+[1.073s]       |        [01;36m[K^~~~~~~~~[m[K
+[1.073s] [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:[m[K In member function ‘[01m[Kvoid libstatistics_collector::topic_statistics_collector::ReceivedMessageAgeCollector<T>::OnMessageReceived(const T&, rcl_time_point_value_t)[m[K’:
+[1.073s] [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:104:51:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<<typeprefixerror><anonymous> > struct libstatistics_collector::topic_statistics_collector::TimeStamp[m[K’
+[1.073s]   104 |     const auto timestamp_from_header = TimeStamp<T[01;31m[K>[m[K::value(received_message);
+[1.073s]       |                                                   [01;31m[K^[m[K
+[1.073s] [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:104:51:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[K<type error>[m[K’, got ‘[01m[KT[m[K’
+[1.349s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+[1.350s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[1.350s] [01m[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:[m[K At global scope:
+[1.350s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K([m[K’ token
+[1.350s]     6 | #define Empty [01;31m[K([m[K-1)
+[1.350s]       |               [01;31m[K^[m[K
+[1.350s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K([m[K’ token
+[1.350s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:25[m[K,
+[1.350s]                  from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+[1.350s]                  from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+[1.350s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+[1.350s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:9[m[K:
+[1.350s] [01m[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:25:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.351s]    25 | [01;36m[K{[m[K
+[1.351s]       | [01;36m[K^[m[K
+[1.351s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+[1.351s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[1.351s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K-[m[K’ token
+[1.351s]     6 | #define Empty ([01;31m[K-[m[K1)
+[1.351s]       |                [01;31m[K^[m[K
+[1.351s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K-[m[K’ token
+[1.351s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:25[m[K,
+[1.351s]                  from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+[1.351s]                  from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+[1.351s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+[1.351s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:9[m[K:
+[1.351s] [01m[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:31:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.351s]    31 | [01;31m[K}[m[K  // namespace rclcpp
+[1.351s]       | [01;31m[K^[m[K
+[1.351s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+[1.351s]                  from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+[1.352s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+[1.352s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:9[m[K:
+[1.352s] [01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:[m[K In static member function ‘[01m[Kstatic rclcpp::WaitResult<WaitSetT> rclcpp::WaitResult<WaitSetT>::from_empty_wait_result_kind()[m[K’:
+[1.352s] [01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:83:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+[1.352s]    83 |     return WaitResult[01;31m[K([m[KWaitResultKind::Empty);
+[1.352s]       |                      [01;31m[K^[m[K
+[1.352s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+[1.352s]                  from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[1.352s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+[1.352s]     6 | #define Empty [01;31m[K([m[K-1)
+[1.352s]       |               [01;31m[K^[m[K
+[1.356s] [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:[m[K In member function ‘[01m[KWaitResultT rclcpp::wait_set_policies::SequentialSynchronization::sync_wait(std::chrono::nanoseconds, std::function<void()>, std::function<rcl_wait_set_t&()>, std::function<WaitResultT(rclcpp::WaitResultKind)>)[m[K’:
+[1.356s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+[1.356s]     6 | #define Empty [01;31m[K([m[K-1)
+[1.356s]       |               [01;31m[K^[m[K
+[1.359s] [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:[m[K In member function ‘[01m[KWaitResultT rclcpp::wait_set_policies::ThreadSafeSynchronization::sync_wait(std::chrono::nanoseconds, std::function<void()>, std::function<rcl_wait_set_t&()>, std::function<WaitResultT(rclcpp::WaitResultKind)>)[m[K’:
+[1.360s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+[1.360s]     6 | #define Empty [01;31m[K([m[K-1)
+[1.360s]       |               [01;31m[K^[m[K
+[1.364s] [01m[K/opt/ros/foxy/include/rclcpp/wait_set_template.hpp:[m[K In lambda function:
+[1.364s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+[1.364s]     6 | #define Empty [01;31m[K([m[K-1)
+[1.364s]       |               [01;31m[K^[m[K
+[1.369s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[1.370s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:17:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.370s]    17 |    Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+[1.370s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.370s] 
+[1.377s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[1.377s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:36:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.377s]    36 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+[1.377s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.378s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[1.378s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:54:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.378s]    54 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+[1.378s]       |                     [01;35m[K~^~[m[K
+[1.378s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:57:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.378s]    57 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+[1.378s]       |                     [01;35m[K~^~[m[K
+[1.379s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[1.379s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:63:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.379s]    63 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+[1.379s]       |                     [01;35m[K~^~~[m[K
+[1.379s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:66:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.379s]    66 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+[1.379s]       |                     [01;35m[K~^~~[m[K
+[1.379s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.379s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:78:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.379s]    78 | int main([01;35m[Kint argc[m[K, char* argv[]){
+[1.379s]       |          [01;35m[K~~~~^~~~[m[K
+[1.379s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:78:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.379s]    78 | int main(int argc, [01;35m[Kchar* argv[][m[K){
+[1.379s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[1.632s] make[2]: *** [CMakeFiles/topic.dir/build.make:115: CMakeFiles/topic.dir/src/topic.cpp.o] Error 1
+[1.632s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2
+[1.632s] make: *** [Makefile:141: all] Error 2
+[1.634s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16

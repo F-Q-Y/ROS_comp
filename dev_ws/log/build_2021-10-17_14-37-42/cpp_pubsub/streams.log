@@ -1,0 +1,71 @@
+[0.010s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_pubsub
+[0.044s] -- The C compiler identification is GNU 9.3.0
+[0.077s] -- The CXX compiler identification is GNU 9.3.0
+[0.080s] -- Check for working C compiler: /usr/bin/cc
+[0.123s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.124s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.177s] -- Check for working CXX compiler: /usr/bin/c++
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.240s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.320s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.338s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.339s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.473s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.505s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.549s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.566s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.654s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.655s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.656s] -- Looking for pthread.h
+[0.699s] -- Looking for pthread.h - found
+[0.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.745s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.745s] -- Looking for pthread_create in pthreads
+[0.784s] -- Looking for pthread_create in pthreads - not found
+[0.784s] -- Looking for pthread_create in pthread
+[0.854s] -- Looking for pthread_create in pthread - found
+[0.855s] -- Found Threads: TRUE  
+[1.020s] -- Configuring done
+[1.027s] -- Generating done
+[1.027s] -- Build files have been written to: /home/fengqiyuan/dev_ws/build/cpp_pubsub
+[1.032s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_pubsub
+[1.034s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_pubsub -- -j16 -l16
+[1.058s] [35m[1mScanning dependencies of target listener[0m
+[1.058s] [35m[1mScanning dependencies of target talker[0m
+[1.137s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.137s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.211s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.308s] [ 75%] Built target talker
+[4.430s] [100%] [32m[1mLinking CXX executable listener[0m
+[4.567s] [100%] Built target listener
+[4.574s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_pubsub -- -j16 -l16
+[4.595s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_pubsub
+[4.600s] -- Install configuration: ""
+[4.600s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[4.600s] -- Set runtime path of "/home/fengqiyuan/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[4.601s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[4.602s] -- Set runtime path of "/home/fengqiyuan/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.602s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.603s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.603s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.603s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.603s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.604s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_pubsub

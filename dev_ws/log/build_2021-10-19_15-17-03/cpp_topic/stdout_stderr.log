@@ -1,0 +1,24 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fengqiyuan/dev_ws/build/cpp_topic
+[ 16%] [32m[1mLinking CXX executable topic[0m
+/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `avail_pop()':
+topic.cpp:(.text+0x32a): undefined reference to `get_lowest(unsigned int)'
+/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `publish(int)':
+topic.cpp:(.text+0x67e): undefined reference to `count_one(unsigned int)'
+/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `Producer::run()':
+topic.cpp:(.text._ZN8Producer3runEv[_ZN8Producer3runEv]+0x25): undefined reference to `spawn(void* (*)(void*), void*)'
+/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `Consumer::run()':
+topic.cpp:(.text._ZN8Consumer3runEv[_ZN8Consumer3runEv]+0x25): undefined reference to `spawn(void* (*)(void*), void*)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/topic.dir/build.make:191: topic] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

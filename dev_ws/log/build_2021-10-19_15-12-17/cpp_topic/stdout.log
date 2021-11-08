@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target topic[0m
+[ 16%] [32mBuilding C object CMakeFiles/topic.dir/src/lock.c.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable topic[0m

@@ -1,0 +1,175 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o[0m
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+    1 | #define N [01;31m[K3[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+    1 | #define N [01;31m[K3[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before numeric constant
+    2 | #define M [01;31m[K4[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before numeric constant
+    2 | #define M [01;31m[K4[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:48:47:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (2, should be 1)
+   48 | struct HasHeader<M, decltype((void) M::header)[01;31m[K>[m[K: std::true_type {};
+      |                                               [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:41:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<<typeprefixerror><anonymous> > struct libstatistics_collector::topic_statistics_collector::HasHeader[m[K’
+   41 | struct [01;36m[KHasHeader[m[K : public std::false_type {};
+      |        [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before numeric constant
+    2 | #define M [01;31m[K4[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+    2 | #define M [01;31m[K4[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before numeric constant
+    2 | #define M [01;31m[K4[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before numeric constant
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:71:56:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+   71 | struct TimeStamp<M, typename std::enable_if<HasHeader<M[01;36m[K>[m[K::value>::type>
+      |                                                        [01;36m[K^[m[K
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:71:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   71 | struct TimeStamp<M, typename std::enable_if<HasHeader<M>::value[01;31m[K>[m[K::type>
+      |                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:71:71:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (2, should be 1)
+   71 | struct TimeStamp<M, typename std::enable_if<HasHeader<M>::value>::type[01;31m[K>[m[K
+      |                                                                       [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:57:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<<typeprefixerror><anonymous> > struct libstatistics_collector::topic_statistics_collector::TimeStamp[m[K’
+   57 | struct [01;36m[KTimeStamp[m[K
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:[m[K In member function ‘[01m[Kvoid libstatistics_collector::topic_statistics_collector::ReceivedMessageAgeCollector<T>::OnMessageReceived(const T&, rcl_time_point_value_t)[m[K’:
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:104:51:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<<typeprefixerror><anonymous> > struct libstatistics_collector::topic_statistics_collector::TimeStamp[m[K’
+  104 |     const auto timestamp_from_header = TimeStamp<T[01;31m[K>[m[K::value(received_message);
+      |                                                   [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:104:51:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[K<type error>[m[K’, got ‘[01m[KT[m[K’
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:[m[K At global scope:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K([m[K’ token
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:25:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   25 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K-[m[K’ token
+    6 | #define Empty ([01;31m[K-[m[K1)
+      |                [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K-[m[K’ token
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:31:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   31 | [01;31m[K}[m[K  // namespace rclcpp
+      | [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:[m[K In static member function ‘[01m[Kstatic rclcpp::WaitResult<WaitSetT> rclcpp::WaitResult<WaitSetT>::from_empty_wait_result_kind()[m[K’:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:83:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+   83 |     return WaitResult[01;31m[K([m[KWaitResultKind::Empty);
+      |                      [01;31m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:[m[K In member function ‘[01m[KWaitResultT rclcpp::wait_set_policies::SequentialSynchronization::sync_wait(std::chrono::nanoseconds, std::function<void()>, std::function<rcl_wait_set_t&()>, std::function<WaitResultT(rclcpp::WaitResultKind)>)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:[m[K In member function ‘[01m[KWaitResultT rclcpp::wait_set_policies::ThreadSafeSynchronization::sync_wait(std::chrono::nanoseconds, std::function<void()>, std::function<rcl_wait_set_t&()>, std::function<WaitResultT(rclcpp::WaitResultKind)>)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/wait_set_template.hpp:[m[K In lambda function:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kbuf_id avail_pop()[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:94:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   94 |   int _v, v, [01;35m[Kv_[m[K; // pre-val, cur-val, post-val
+      |              [01;35m[K^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid spin_once(int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:181:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  181 |     int [01;35m[Kv[m[K = bufs[b]->data;
+      |         [01;35m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:17:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   17 |     Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:36:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   36 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:54:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   54 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:57:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   57 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:63:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   63 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+      |                     [01;35m[K~^~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:66:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   66 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+      |                     [01;35m[K~^~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:77:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   77 | int main([01;35m[Kint argc[m[K, char* argv[]){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:77:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   77 | int main(int argc, [01;35m[Kchar* argv[][m[K){
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/topic.dir/build.make:115: CMakeFiles/topic.dir/src/topic.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

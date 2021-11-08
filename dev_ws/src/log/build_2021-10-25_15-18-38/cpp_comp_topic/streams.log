@@ -1,0 +1,26 @@
+[0.144s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_comp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_comp_topic -- -j16 -l16
+[0.210s] [35m[1mScanning dependencies of target topic_comp[0m
+[0.308s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_comp.dir/src/topic_comp.cpp.o[0m
+[3.746s] [100%] [32m[1mLinking CXX executable topic_comp[0m
+[3.900s] [100%] Built target topic_comp
+[3.907s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_comp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/src/build/cpp_comp_topic -- -j16 -l16
+[3.928s] Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_comp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/build/cpp_comp_topic
+[3.933s] -- Install configuration: ""
+[3.933s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/lib/cpp_comp_topic/topic_comp
+[3.934s] -- Set runtime path of "/home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/lib/cpp_comp_topic/topic_comp" to ""
+[3.936s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_comp_topic
+[3.936s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_comp_topic
+[3.936s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/environment/ament_prefix_path.sh
+[3.937s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/environment/ament_prefix_path.dsv
+[3.937s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/environment/path.sh
+[3.937s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/environment/path.dsv
+[3.937s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.bash
+[3.937s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.sh
+[3.937s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.zsh
+[3.938s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.dsv
+[3.938s] -- Installing: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/package.dsv
+[3.938s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/ament_index/resource_index/packages/cpp_comp_topic
+[3.938s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/cmake/cpp_comp_topicConfig.cmake
+[3.938s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/cmake/cpp_comp_topicConfig-version.cmake
+[3.938s] -- Up-to-date: /home/fengqiyuan/dev_ws/src/install/cpp_comp_topic/share/cpp_comp_topic/package.xml
+[3.939s] Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_comp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/src/build/cpp_comp_topic

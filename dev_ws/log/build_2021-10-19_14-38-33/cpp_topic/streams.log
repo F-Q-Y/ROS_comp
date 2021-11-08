@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_topic
+[0.020s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.035s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.163s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.187s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.190s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.312s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.313s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.421s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.422s]   ament_target_dependencies() the passed package name 'def' was not found
+[0.422s]   before
+[0.422s] Call Stack (most recent call first):
+[0.422s]   CMakeLists.txt:34 (ament_target_dependencies)
+[0.422s] 
+[0.422s] 
+[0.422s] -- Configuring incomplete, errors occurred!
+[0.423s] See also "/home/fengqiyuan/dev_ws/build/cpp_topic/CMakeFiles/CMakeOutput.log".
+[0.423s] See also "/home/fengqiyuan/dev_ws/build/cpp_topic/CMakeFiles/CMakeError.log".
+[0.428s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_topic

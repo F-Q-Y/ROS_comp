@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_comp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_comp_topic -- -j16 -l16
+[0.037s] [35m[1mScanning dependencies of target topic_comp[0m
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_comp.dir/src/topic_comp.cpp.o[0m
+[0.951s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:[m[K In lambda function:
+[0.951s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:101:93:[m[K [01;31m[Kerror: [m[Kcast from ‘[01m[Kstd::__shared_ptr<std_msgs::msg::Int32_<std::allocator<void> >, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >*[m[K’} to ‘[01m[Kint[m[K’ loses precision [[01;31m[K-fpermissive[m[K]
+[0.951s]   101 |           " Received message with value: %d, and address: 0x%" PRIXPTR "\n", (int)(msg.get()[01;31m[K)[m[K,
+[0.952s]       |                                                                                             [01;31m[K^[m[K
+[1.962s] make[2]: *** [CMakeFiles/topic_comp.dir/build.make:63: CMakeFiles/topic_comp.dir/src/topic_comp.cpp.o] Error 1
+[1.962s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic_comp.dir/all] Error 2
+[1.963s] make: *** [Makefile:141: all] Error 2
+[1.965s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_comp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_comp_topic -- -j16 -l16

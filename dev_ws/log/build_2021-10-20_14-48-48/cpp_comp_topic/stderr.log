@@ -1,0 +1,7 @@
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:[m[K In lambda function:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:101:91:[m[K [01;31m[Kerror: [m[Kcast from ‘[01m[Kstd::__shared_ptr<std_msgs::msg::Int32_<std::allocator<void> >, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >*[m[K’} to ‘[01m[Kint[m[K’ loses precision [[01;31m[K-fpermissive[m[K]
+  101 |           " Received message with value: %d, and address: 0x%" PRIXPTR "\n", (int)msg.get([01;31m[K)[m[K,
+      |                                                                                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/topic_comp.dir/build.make:63: CMakeFiles/topic_comp.dir/src/topic_comp.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic_comp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

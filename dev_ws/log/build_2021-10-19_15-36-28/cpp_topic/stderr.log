@@ -1,0 +1,50 @@
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kbuf_id avail_pop()[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:103:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  103 |   int _v, v, [01;35m[Kv_[m[K; // pre-val, cur-val, post-val
+      |              [01;35m[K^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid spin_once(int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:190:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  190 |     int [01;35m[Kv[m[K = bufs[b]->data;
+      |         [01;35m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:14:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   14 |     Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:33:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   33 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:51:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   51 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:54:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   54 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:60:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   60 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+      |                     [01;35m[K~^~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:63:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   63 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+      |                     [01;35m[K~^~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:74:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   74 | int main([01;35m[Kint argc[m[K, char* argv[]){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:74:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   74 | int main(int argc, [01;35m[Kchar* argv[][m[K){
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `avail_pop()':
+topic.cpp:(.text+0x32a): undefined reference to `get_lowest(unsigned int)'
+/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `publish(int)':
+topic.cpp:(.text+0x67e): undefined reference to `count_one(unsigned int)'
+/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `Producer::run()':
+topic.cpp:(.text._ZN8Producer3runEv[_ZN8Producer3runEv]+0x25): undefined reference to `spawn(void* (*)(void*), void*)'
+/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `Consumer::run()':
+topic.cpp:(.text._ZN8Consumer3runEv[_ZN8Consumer3runEv]+0x25): undefined reference to `spawn(void* (*)(void*), void*)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/topic.dir/build.make:191: topic] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

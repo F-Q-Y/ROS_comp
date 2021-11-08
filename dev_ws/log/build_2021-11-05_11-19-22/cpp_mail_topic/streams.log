@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_mail_topic -- -j16 -l16
+[0.038s] [35m[1mScanning dependencies of target topic_mail[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_mail.dir/src/topic_mail.cpp.o[0m
+[0.913s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:8[m[K:
+[0.913s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:[m[K In member function ‘[01m[Kvoid topic_base::initialize_channels()[m[K’:
+[0.913s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:67:18:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+[0.914s]    67 |         [01;35m[Kreading[r][m[K;
+[0.914s]       |         [01;35m[K~~~~~~~~~^[m[K
+[0.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:67:18:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[0.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:[m[K In member function ‘[01m[Kbuf_id topic_base::start_write()[m[K’:
+[0.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:125:13:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kavailable[m[K’ [[01;35m[K-Wvla[m[K]
+[0.914s]   125 |         int [01;35m[Kavailable[m[K[B];
+[0.914s]       |             [01;35m[K^~~~~~~~~[m[K
+[0.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:[m[K In function ‘[01m[Kvoid* reader(void*)[m[K’:
+[0.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/mail_base.hpp:184:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.914s]   184 |             int [01;35m[Kv[m[K=buf->data;
+[0.914s]       |                 [01;35m[K^[m[K
+[0.919s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[0.919s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:18:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.919s]    18 |     Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+[0.919s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.926s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[0.926s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:37:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.926s]    37 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+[0.927s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[0.927s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[0.927s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:57:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[0.927s]    57 |         printf("[01;35m[K%d[m[K %d\n",[32m[Km_[m[K,n_);
+[0.927s]       |                 [01;35m[K~^[m[K       [32m[K~~[m[K
+[0.927s]       |                  [01;35m[K|[m[K       [32m[K|[m[K
+[0.927s]       |                  [01;35m[Kint[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+[0.927s]       |                 [32m[K%ld[m[K
+[0.927s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:57:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[0.927s]    57 |         printf("%d [01;35m[K%d[m[K\n",m_,[32m[Kn_[m[K);
+[0.927s]       |                    [01;35m[K~^[m[K       [32m[K~~[m[K
+[0.927s]       |                     [01;35m[K|[m[K       [32m[K|[m[K
+[0.927s]       |                     [01;35m[Kint[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+[0.927s]       |                    [32m[K%ld[m[K
+[0.927s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:58:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.928s]    58 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+[0.928s]       |                     [01;35m[K~^~[m[K
+[0.928s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:61:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.928s]    61 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+[0.928s]       |                     [01;35m[K~^~[m[K
+[0.928s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[0.928s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:67:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.928s]    67 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+[0.928s]       |                     [01;35m[K~^~~[m[K
+[0.928s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_mail_topic/src/topic_mail.cpp:70:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.928s]    70 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+[0.928s]       |                     [01;35m[K~^~~[m[K
+[1.248s] [100%] [32m[1mLinking CXX executable topic_mail[0m
+[1.317s] [100%] Built target topic_mail
+[1.324s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_mail_topic -- -j16 -l16
+[1.345s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_mail_topic
+[1.350s] -- Install configuration: ""
+[1.350s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/lib/cpp_mail_topic/topic_mail
+[1.350s] -- Set runtime path of "/home/fengqiyuan/dev_ws/install/cpp_mail_topic/lib/cpp_mail_topic/topic_mail" to ""
+[1.350s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/ament_index/resource_index/package_run_dependencies/cpp_mail_topic
+[1.350s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/ament_index/resource_index/parent_prefix_path/cpp_mail_topic
+[1.350s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/environment/ament_prefix_path.sh
+[1.350s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/environment/ament_prefix_path.dsv
+[1.350s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/environment/path.sh
+[1.351s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/environment/path.dsv
+[1.351s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.bash
+[1.351s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.sh
+[1.351s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.zsh
+[1.351s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/local_setup.dsv
+[1.351s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/package.dsv
+[1.351s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/ament_index/resource_index/packages/cpp_mail_topic
+[1.351s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/cmake/cpp_mail_topicConfig.cmake
+[1.351s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/cmake/cpp_mail_topicConfig-version.cmake
+[1.351s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_mail_topic/share/cpp_mail_topic/package.xml
+[1.352s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_mail_topic

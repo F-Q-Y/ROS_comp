@@ -1,0 +1,68 @@
+[0.010s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.166s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.191s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.304s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.306s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.450s] -- Configuring done
+[0.455s] -- Generating done
+[0.456s] -- Build files have been written to: /home/fengqiyuan/dev_ws/build/cpp_topic
+[0.472s] [35m[1mScanning dependencies of target topic[0m
+[0.488s] [ 33%] [32mBuilding C object CMakeFiles/topic.dir/src/lock.c.o[0m
+[0.488s] [ 33%] [32mBuilding C object CMakeFiles/topic.dir/src/threads.c.o[0m
+[0.490s] [ 50%] [32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o[0m
+[1.354s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[1.355s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kbuf_id avail_pop()[m[K’:
+[1.355s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:103:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.355s]   103 |   int _v, v, [01;35m[Kv_[m[K; // pre-val, cur-val, post-val
+[1.355s]       |              [01;35m[K^~[m[K
+[1.355s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid spin_once(int)[m[K’:
+[1.355s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:190:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.355s]   190 |     int [01;35m[Kv[m[K = bufs[b]->data;
+[1.356s]       |         [01;35m[K^[m[K
+[1.360s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[1.360s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:14:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.360s]    14 |     Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+[1.360s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.367s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[1.367s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:33:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.367s]    33 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+[1.367s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.368s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[1.368s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:51:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.368s]    51 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+[1.368s]       |                     [01;35m[K~^~[m[K
+[1.368s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:54:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.368s]    54 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+[1.368s]       |                     [01;35m[K~^~[m[K
+[1.368s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[1.369s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:60:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.369s]    60 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+[1.369s]       |                     [01;35m[K~^~~[m[K
+[1.369s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:63:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.369s]    63 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+[1.369s]       |                     [01;35m[K~^~~[m[K
+[1.369s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.369s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:74:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.369s]    74 | int main([01;35m[Kint argc[m[K, char* argv[]){
+[1.369s]       |          [01;35m[K~~~~^~~~[m[K
+[1.369s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:74:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.369s]    74 | int main(int argc, [01;35m[Kchar* argv[][m[K){
+[1.369s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[1.685s] [ 66%] [32m[1mLinking CXX executable topic[0m
+[1.748s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `avail_pop()':
+[1.748s] topic.cpp:(.text+0x32a): undefined reference to `get_lowest(unsigned int)'
+[1.748s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `publish(int)':
+[1.748s] topic.cpp:(.text+0x67e): undefined reference to `count_one(unsigned int)'
+[1.748s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `Producer::run()':
+[1.748s] topic.cpp:(.text._ZN8Producer3runEv[_ZN8Producer3runEv]+0x25): undefined reference to `spawn(void* (*)(void*), void*)'
+[1.748s] /usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `Consumer::run()':
+[1.748s] topic.cpp:(.text._ZN8Consumer3runEv[_ZN8Consumer3runEv]+0x25): undefined reference to `spawn(void* (*)(void*), void*)'
+[1.748s] collect2: error: ld returned 1 exit status
+[1.749s] make[2]: *** [CMakeFiles/topic.dir/build.make:191: topic] Error 1
+[1.749s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2
+[1.749s] make: *** [Makefile:141: all] Error 2
+[1.750s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16

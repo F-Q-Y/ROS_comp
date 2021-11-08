@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000137] (-) JobUnselected: {'identifier': 'cpp_prosub'}
+[0.000192] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000210] (-) JobUnselected: {'identifier': 'fengqy_package'}
+[0.000228] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000251] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.000270] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.007474] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.007968] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.008418] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fengqiyuan/dev_ws/build/cpp_topic', '--', '-j16', '-l16'], 'cwd': '/home/fengqiyuan/dev_ws/build/cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fengqiyuan'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('SSH_AGENT_PID', '1660'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/77/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fengqiyuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.61.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/77/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/77/usr/share/code/code'), ('MANAGERPID', '1479'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f9909485612b48f26f52110616e48a3'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fengqiyuan/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fengqiyuan'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('http_proxy', 'http://127.0.0.1:8889/'), ('JOURNAL_STREAM', '8:44646'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fengqiyuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/fengqiyuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/qiqyfeng:@/tmp/.ICE-unix/1695,unix/qiqyfeng:/tmp/.ICE-unix/1695'), ('INVOCATION_ID', 'e1fabe165e86473fa376abb7b4bc0da9'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c3d223d9_487c_4062_9dc4_970983e59149'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-29f8e702bb.sock'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/77/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fengqiyuan/dev_ws/build/cpp_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0f9909485612b48f26f52110616e48a3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('BREAKPAD_DUMP_LOCATION', '/home/fengqiyuan/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.044471] (cpp_topic) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o\x1b[0m\n'}
+[0.099385] (-) TimerEvent: {}
+[0.199669] (-) TimerEvent: {}
+[0.299892] (-) TimerEvent: {}
+[0.400157] (-) TimerEvent: {}
+[0.459513] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.459671] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.459739] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[0.459793] (cpp_topic) StderrLine: {'line': b'    1 | #define N \x1b[01;31m\x1b[K3\x1b[m\x1b[K\n'}
+[0.459854] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.459904] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[0.459968] (cpp_topic) StderrLine: {'line': b'    1 | #define N \x1b[01;31m\x1b[K3\x1b[m\x1b[K\n'}
+[0.460018] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.500273] (-) TimerEvent: {}
+[0.600555] (-) TimerEvent: {}
+[0.601902] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected nested-name-specifier before numeric constant\n'}
+[0.602310] (cpp_topic) StderrLine: {'line': b'    2 | #define M \x1b[01;31m\x1b[K4\x1b[m\x1b[K\n'}
+[0.602388] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.602443] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[0.602510] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected nested-name-specifier before numeric constant\n'}
+[0.602564] (cpp_topic) StderrLine: {'line': b'    2 | #define M \x1b[01;31m\x1b[K4\x1b[m\x1b[K\n'}
+[0.602620] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.602669] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[0.602718] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26\x1b[m\x1b[K,\n'}
+[0.602767] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[0.602816] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[0.602864] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[0.602912] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[0.602959] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[0.603019] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[0.603089] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[0.603160] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[0.603233] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.603300] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8\x1b[m\x1b[K,\n'}
+[0.603367] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.603434] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:48:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (2, should be 1)\n'}
+[0.603509] (cpp_topic) StderrLine: {'line': b'   48 | struct HasHeader<M, decltype((void) M::header)\x1b[01;31m\x1b[K>\x1b[m\x1b[K: std::true_type {};\n'}
+[0.603576] (cpp_topic) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.603643] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:41:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<<typeprefixerror><anonymous> > struct libstatistics_collector::topic_statistics_collector::HasHeader\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.603711] (cpp_topic) StderrLine: {'line': b'   41 | struct \x1b[01;36m\x1b[KHasHeader\x1b[m\x1b[K : public std::false_type {};\n'}
+[0.603776] (cpp_topic) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.603848] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.603926] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.603980] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected nested-name-specifier before numeric constant\n'}
+[0.604039] (cpp_topic) StderrLine: {'line': b'    2 | #define M \x1b[01;31m\x1b[K4\x1b[m\x1b[K\n'}
+[0.604087] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.604158] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[0.604242] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[0.604328] (cpp_topic) StderrLine: {'line': b'    2 | #define M \x1b[01;31m\x1b[K4\x1b[m\x1b[K\n'}
+[0.604411] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.604467] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected nested-name-specifier before numeric constant\n'}
+[0.604520] (cpp_topic) StderrLine: {'line': b'    2 | #define M \x1b[01;31m\x1b[K4\x1b[m\x1b[K\n'}
+[0.604569] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.604621] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[0.604697] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26\x1b[m\x1b[K,\n'}
+[0.604766] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[0.604833] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[0.604899] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[0.604966] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[0.605038] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[0.605124] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[0.605208] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[0.605289] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[0.605369] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[0.605420] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8\x1b[m\x1b[K,\n'}
+[0.605469] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.605518] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:71:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[0.605567] (cpp_topic) StderrLine: {'line': b'   71 | struct TimeStamp<M, typename std::enable_if<HasHeader<M\x1b[01;36m\x1b[K>\x1b[m\x1b[K::value>::type>\n'}
+[0.605615] (cpp_topic) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.605668] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:71:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.605716] (cpp_topic) StderrLine: {'line': b'   71 | struct TimeStamp<M, typename std::enable_if<HasHeader<M>::value\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type>\n'}
+[0.605764] (cpp_topic) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.605811] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:71:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (2, should be 1)\n'}
+[0.605860] (cpp_topic) StderrLine: {'line': b'   71 | struct TimeStamp<M, typename std::enable_if<HasHeader<M>::value>::type\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[0.605908] (cpp_topic) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.605956] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:57:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<<typeprefixerror><anonymous> > struct libstatistics_collector::topic_statistics_collector::TimeStamp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.606006] (cpp_topic) StderrLine: {'line': b'   57 | struct \x1b[01;36m\x1b[KTimeStamp\x1b[m\x1b[K\n'}
+[0.606053] (cpp_topic) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.606100] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid libstatistics_collector::topic_statistics_collector::ReceivedMessageAgeCollector<T>::OnMessageReceived(const T&, rcl_time_point_value_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.606151] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:104:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<<typeprefixerror><anonymous> > struct libstatistics_collector::topic_statistics_collector::TimeStamp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.606223] (cpp_topic) StderrLine: {'line': b'  104 |     const auto timestamp_from_header = TimeStamp<T\x1b[01;31m\x1b[K>\x1b[m\x1b[K::value(received_message);\n'}
+[0.606273] (cpp_topic) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.606320] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:104:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a constant of type \xe2\x80\x98\x1b[01m\x1b[K<type error>\x1b[m\x1b[K\xe2\x80\x99, got \xe2\x80\x98\x1b[01m\x1b[KT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.700655] (-) TimerEvent: {}
+[0.800962] (-) TimerEvent: {}
+[0.875844] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.876406] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.876486] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:\x1b[m\x1b[K At global scope:\n'}
+[0.876554] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.876609] (cpp_topic) StderrLine: {'line': b'    6 | #define Empty \x1b[01;31m\x1b[K(\x1b[m\x1b[K-1)\n'}
+[0.876662] (cpp_topic) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.876710] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.876763] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:25\x1b[m\x1b[K,\n'}
+[0.876811] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32\x1b[m\x1b[K,\n'}
+[0.876860] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26\x1b[m\x1b[K,\n'}
+[0.876907] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157\x1b[m\x1b[K,\n'}
+[0.876954] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8\x1b[m\x1b[K,\n'}
+[0.877012] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.877060] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:25:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.877110] (cpp_topic) StderrLine: {'line': b'   25 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[0.877159] (cpp_topic) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.877206] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.877254] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.877326] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.877380] (cpp_topic) StderrLine: {'line': b'    6 | #define Empty (\x1b[01;31m\x1b[K-\x1b[m\x1b[K1)\n'}
+[0.877428] (cpp_topic) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.877476] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.877538] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:25\x1b[m\x1b[K,\n'}
+[0.877595] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32\x1b[m\x1b[K,\n'}
+[0.877645] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26\x1b[m\x1b[K,\n'}
+[0.877692] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157\x1b[m\x1b[K,\n'}
+[0.877739] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8\x1b[m\x1b[K,\n'}
+[0.877791] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.877838] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:31:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.877887] (cpp_topic) StderrLine: {'line': b'   31 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K  // namespace rclcpp\n'}
+[0.877938] (cpp_topic) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.877986] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32\x1b[m\x1b[K,\n'}
+[0.878038] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26\x1b[m\x1b[K,\n'}
+[0.878092] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157\x1b[m\x1b[K,\n'}
+[0.878142] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8\x1b[m\x1b[K,\n'}
+[0.878201] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.878250] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rclcpp::WaitResult<WaitSetT> rclcpp::WaitResult<WaitSetT>::from_empty_wait_result_kind()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.878301] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:83:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.878350] (cpp_topic) StderrLine: {'line': b'   83 |     return WaitResult\x1b[01;31m\x1b[K(\x1b[m\x1b[KWaitResultKind::Empty);\n'}
+[0.878409] (cpp_topic) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.878460] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.878507] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.878567] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.878616] (cpp_topic) StderrLine: {'line': b'    6 | #define Empty \x1b[01;31m\x1b[K(\x1b[m\x1b[K-1)\n'}
+[0.878663] (cpp_topic) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.882153] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KWaitResultT rclcpp::wait_set_policies::SequentialSynchronization::sync_wait(std::chrono::nanoseconds, std::function<void()>, std::function<rcl_wait_set_t&()>, std::function<WaitResultT(rclcpp::WaitResultKind)>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.882276] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.882350] (cpp_topic) StderrLine: {'line': b'    6 | #define Empty \x1b[01;31m\x1b[K(\x1b[m\x1b[K-1)\n'}
+[0.882409] (cpp_topic) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.885867] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KWaitResultT rclcpp::wait_set_policies::ThreadSafeSynchronization::sync_wait(std::chrono::nanoseconds, std::function<void()>, std::function<rcl_wait_set_t&()>, std::function<WaitResultT(rclcpp::WaitResultKind)>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.885977] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.886042] (cpp_topic) StderrLine: {'line': b'    6 | #define Empty \x1b[01;31m\x1b[K(\x1b[m\x1b[K-1)\n'}
+[0.886100] (cpp_topic) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.890883] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/wait_set_template.hpp:\x1b[m\x1b[K In lambda function:\n'}
+[0.890986] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.891049] (cpp_topic) StderrLine: {'line': b'    6 | #define Empty \x1b[01;31m\x1b[K(\x1b[m\x1b[K-1)\n'}
+[0.891103] (cpp_topic) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.892740] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.892818] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbuf_id avail_pop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.892876] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:94:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kv_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.892932] (cpp_topic) StderrLine: {'line': b'   94 |   int _v, v, \x1b[01;35m\x1b[Kv_\x1b[m\x1b[K; // pre-val, cur-val, post-val\n'}
+[0.892990] (cpp_topic) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.893326] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid spin_once(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.893387] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:181:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.893437] (cpp_topic) StderrLine: {'line': b'  181 |     int \x1b[01;35m\x1b[Kv\x1b[m\x1b[K = bufs[b]->data;\n'}
+[0.893490] (cpp_topic) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.897563] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KProducer::Producer(const string&, const string&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.897669] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:17:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koutput\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.897742] (cpp_topic) StderrLine: {'line': b'   17 |     Producer(const std::string & name, \x1b[01;35m\x1b[Kconst std::string & output\x1b[m\x1b[K, size_t w)\n'}
+[0.897799] (cpp_topic) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.901048] (-) TimerEvent: {}
+[0.905449] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KConsumer::Consumer(const string&, const string&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.905595] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:36:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinput\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.905712] (cpp_topic) StderrLine: {'line': b'   36 |     Consumer(const std::string & name, \x1b[01;35m\x1b[Kconst std::string & input\x1b[m\x1b[K, size_t r)\n'}
+[0.905774] (cpp_topic) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[0.905834] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTopic::Topic(size_t, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.905884] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:54:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.905936] (cpp_topic) StderrLine: {'line': b'   54 |         for(int i=0;\x1b[01;35m\x1b[Ki<m\x1b[m\x1b[K;i++){\n'}
+[0.905985] (cpp_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~\x1b[m\x1b[K\n'}
+[0.906101] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:57:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.906174] (cpp_topic) StderrLine: {'line': b'   57 |         for(int j=0;\x1b[01;35m\x1b[Kj<n\x1b[m\x1b[K;j++){\n'}
+[0.906236] (cpp_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~\x1b[m\x1b[K\n'}
+[0.906677] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Topic::run()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.906818] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:63:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.906980] (cpp_topic) StderrLine: {'line': b'   63 |         for(int i=0;\x1b[01;35m\x1b[Ki<m_\x1b[m\x1b[K;i++){\n'}
+[0.907042] (cpp_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~\x1b[m\x1b[K\n'}
+[0.907097] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:66:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.907152] (cpp_topic) StderrLine: {'line': b'   66 |         for(int j=0;\x1b[01;35m\x1b[Kj<n_\x1b[m\x1b[K;j++){\n'}
+[0.907206] (cpp_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~\x1b[m\x1b[K\n'}
+[0.907254] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.907302] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:77:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.907351] (cpp_topic) StderrLine: {'line': b'   77 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char* argv[]){\n'}
+[0.907399] (cpp_topic) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[0.907456] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:77:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.907513] (cpp_topic) StderrLine: {'line': b'   77 | int main(int argc, \x1b[01;35m\x1b[Kchar* argv[]\x1b[m\x1b[K){\n'}
+[0.907561] (cpp_topic) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.001166] (-) TimerEvent: {}
+[1.101412] (-) TimerEvent: {}
+[1.163816] (cpp_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/topic.dir/build.make:115: CMakeFiles/topic.dir/src/topic.cpp.o] Error 1\n'}
+[1.164194] (cpp_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2\n'}
+[1.164451] (cpp_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.166228] (cpp_topic) CommandEnded: {'returncode': 2}
+[1.201609] (-) TimerEvent: {}
+[1.302126] (-) TimerEvent: {}
+[1.345646] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 2}
+[1.389059] (-) EventReactorShutdown: {}

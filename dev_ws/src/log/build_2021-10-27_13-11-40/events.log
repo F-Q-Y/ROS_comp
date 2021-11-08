@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000436] (-) JobUnselected: {'identifier': 'cpp_comp_topic'}
+[0.000469] (-) JobUnselected: {'identifier': 'cpp_prosub'}
+[0.000487] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000763] (-) JobUnselected: {'identifier': 'cpp_topic'}
+[0.000918] (-) JobUnselected: {'identifier': 'fengqy_package'}
+[0.001283] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001486] (cpp_my_topic) JobQueued: {'identifier': 'cpp_my_topic', 'dependencies': OrderedDict()}
+[0.001600] (cpp_my_topic) JobStarted: {'identifier': 'cpp_my_topic'}
+[0.009375] (cpp_my_topic) JobProgress: {'identifier': 'cpp_my_topic', 'progress': 'cmake'}
+[0.010214] (cpp_my_topic) JobProgress: {'identifier': 'cpp_my_topic', 'progress': 'build'}
+[0.010297] (cpp_my_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic', '--', '-j16', '-l16'], 'cwd': '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fengqiyuan'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('SSH_AGENT_PID', '1729'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/77/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fengqiyuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/fengqiyuan/dev_ws'), ('TERM_PROGRAM_VERSION', '1.61.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/77/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/77/usr/share/code/code'), ('MANAGERPID', '1548'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=865392ecbdb9e16603bc15f56178ce33'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/fengqiyuan/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:8889/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fengqiyuan'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('_', '/usr/bin/colcon'), ('http_proxy', 'http://127.0.0.1:8889/'), ('JOURNAL_STREAM', '8:52472'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fengqiyuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/fengqiyuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/qiqyfeng:@/tmp/.ICE-unix/1773,unix/qiqyfeng:/tmp/.ICE-unix/1773'), ('INVOCATION_ID', 'bb6de89c055c485398b6e3819e1f6f9a'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/efce118f_fa97_403b_ad00_cb4fcb3a9500'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-29f8e702bb.sock'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/77/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fengqiyuan/dev_ws/src/build/cpp_my_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=865392ecbdb9e16603bc15f56178ce33'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('BREAKPAD_DUMP_LOCATION', '/home/fengqiyuan/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.039504] (cpp_my_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target topic\x1b[0m\n'}
+[0.056945] (cpp_my_topic) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o\x1b[0m\n'}
+[0.099971] (-) TimerEvent: {}
+[0.200225] (-) TimerEvent: {}
+[0.300457] (-) TimerEvent: {}
+[0.400714] (-) TimerEvent: {}
+[0.500972] (-) TimerEvent: {}
+[0.601231] (-) TimerEvent: {}
+[0.701500] (-) TimerEvent: {}
+[0.801837] (-) TimerEvent: {}
+[0.902146] (-) TimerEvent: {}
+[0.911650] (cpp_my_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:7\x1b[m\x1b[K:\n'}
+[0.911863] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbuf_id avail_pop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.911984] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:156:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kv_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.912100] (cpp_my_topic) StderrLine: {'line': b'  156 |   int _v, v, \x1b[01;35m\x1b[Kv_\x1b[m\x1b[K; // pre-val, cur-val, post-val\n'}
+[0.912197] (cpp_my_topic) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.914441] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* publisher(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.914560] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic_base.hpp:267:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.914667] (cpp_my_topic) StderrLine: {'line': b'  267 |   int \x1b[01;35m\x1b[Kcount\x1b[m\x1b[K = 0;\n'}
+[0.914764] (cpp_my_topic) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.918765] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KProducer::Producer(const string&, const string&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.918878] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:14:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koutput\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.918943] (cpp_my_topic) StderrLine: {'line': b'   14 |     Producer(const std::string & name, \x1b[01;35m\x1b[Kconst std::string & output\x1b[m\x1b[K, size_t w)\n'}
+[0.918997] (cpp_my_topic) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.926160] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KConsumer::Consumer(const string&, const string&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.926258] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:33:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinput\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.926325] (cpp_my_topic) StderrLine: {'line': b'   33 |     Consumer(const std::string & name, \x1b[01;35m\x1b[Kconst std::string & input\x1b[m\x1b[K, size_t r)\n'}
+[0.926467] (cpp_my_topic) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[0.926530] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTopic::Topic(size_t, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.926584] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:53:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.926638] (cpp_my_topic) StderrLine: {'line': b'   53 |         for(int i=0;\x1b[01;35m\x1b[Ki<m\x1b[m\x1b[K;i++){\n'}
+[0.926688] (cpp_my_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~\x1b[m\x1b[K\n'}
+[0.926820] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:56:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.926882] (cpp_my_topic) StderrLine: {'line': b'   56 |         for(int j=0;\x1b[01;35m\x1b[Kj<n\x1b[m\x1b[K;j++){\n'}
+[0.926934] (cpp_my_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~\x1b[m\x1b[K\n'}
+[0.927248] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Topic::run()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.927390] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:62:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.927460] (cpp_my_topic) StderrLine: {'line': b'   62 |         for(int i=0;\x1b[01;35m\x1b[Ki<m_\x1b[m\x1b[K;i++){\n'}
+[0.927512] (cpp_my_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~\x1b[m\x1b[K\n'}
+[0.927562] (cpp_my_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fengqiyuan/dev_ws/src/cpp_my_topic/src/topic.cpp:65:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.927617] (cpp_my_topic) StderrLine: {'line': b'   65 |         for(int j=0;\x1b[01;35m\x1b[Kj<n_\x1b[m\x1b[K;j++){\n'}
+[0.927667] (cpp_my_topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~\x1b[m\x1b[K\n'}
+[1.002262] (-) TimerEvent: {}
+[1.102532] (-) TimerEvent: {}
+[1.202804] (-) TimerEvent: {}
+[1.259530] (cpp_my_topic) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable topic\x1b[0m\n'}
+[1.302924] (-) TimerEvent: {}
+[1.326020] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `initialize_topic()':\n"}
+[1.326175] (cpp_my_topic) StderrLine: {'line': b"topic.cpp:(.text+0x223): undefined reference to `N'\n"}
+[1.326251] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x22a): undefined reference to `M'\n"}
+[1.326473] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x241): undefined reference to `M'\n"}
+[1.326669] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x24a): undefined reference to `N'\n"}
+[1.326740] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x276): undefined reference to `M'\n"}
+[1.326799] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x27f): undefined reference to `N'\n"}
+[1.326851] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x2b2): undefined reference to `M'\n"}
+[1.326900] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x2e3): undefined reference to `N'\n"}
+[1.326950] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x314): undefined reference to `M'\n"}
+[1.326998] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x353): undefined reference to `M'\n"}
+[1.327060] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x35c): undefined reference to `N'\n"}
+[1.327117] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x3cb): undefined reference to `M'\n"}
+[1.327167] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x3d4): undefined reference to `N'\n"}
+[1.327216] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x3e5): undefined reference to `M'\n"}
+[1.327265] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x412): undefined reference to `M'\n"}
+[1.327318] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x41b): undefined reference to `N'\n"}
+[1.327369] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x44a): undefined reference to `M'\n"}
+[1.327418] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x48f): undefined reference to `M'\n"}
+[1.327467] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x4bc): undefined reference to `N'\n"}
+[1.327516] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x4f9): undefined reference to `N'\n"}
+[1.327564] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x550): undefined reference to `M'\n"}
+[1.327624] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `avail_pop()':\n"}
+[1.327687] (cpp_my_topic) StderrLine: {'line': b"topic.cpp:(.text+0x61f): undefined reference to `M'\n"}
+[1.327741] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x628): undefined reference to `N'\n"}
+[1.327790] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `start_read(int, int)':\n"}
+[1.327854] (cpp_my_topic) StderrLine: {'line': b"topic.cpp:(.text+0x839): undefined reference to `N'\n"}
+[1.327903] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `get_loan(int)':\n"}
+[1.327974] (cpp_my_topic) StderrLine: {'line': b"topic.cpp:(.text+0x90d): undefined reference to `N'\n"}
+[1.328026] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `publish(int)':\n"}
+[1.328076] (cpp_my_topic) StderrLine: {'line': b"topic.cpp:(.text+0x952): undefined reference to `N'\n"}
+[1.328125] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x95f): undefined reference to `N'\n"}
+[1.328173] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o:topic.cpp:(.text+0x98a): more undefined references to `N' follow\n"}
+[1.328222] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `spin_once(int)':\n"}
+[1.328270] (cpp_my_topic) StderrLine: {'line': b"topic.cpp:(.text+0xa19): undefined reference to `M'\n"}
+[1.328319] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `publisher(void*)':\n"}
+[1.328367] (cpp_my_topic) StderrLine: {'line': b"topic.cpp:(.text+0xb4d): undefined reference to `N'\n"}
+[1.328417] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0xb64): undefined reference to `M'\n"}
+[1.328471] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/topic.dir/src/topic.cpp.o: in function `main':\n"}
+[1.328528] (cpp_my_topic) StderrLine: {'line': b"topic.cpp:(.text+0x1468): undefined reference to `N'\n"}
+[1.328578] (cpp_my_topic) StderrLine: {'line': b"/usr/bin/ld: topic.cpp:(.text+0x1471): undefined reference to `M'\n"}
+[1.328626] (cpp_my_topic) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[1.328675] (cpp_my_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/topic.dir/build.make:191: topic] Error 1\n'}
+[1.328818] (cpp_my_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2\n'}
+[1.329092] (cpp_my_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.329286] (cpp_my_topic) CommandEnded: {'returncode': 2}
+[1.356240] (cpp_my_topic) JobEnded: {'identifier': 'cpp_my_topic', 'rc': 2}
+[1.366720] (-) EventReactorShutdown: {}

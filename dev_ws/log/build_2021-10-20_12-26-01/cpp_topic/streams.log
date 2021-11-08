@@ -1,0 +1,50 @@
+[0.009s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16
+[0.038s] [35m[1mScanning dependencies of target topic[0m
+[0.054s] [ 16%] [32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o[0m
+[0.908s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[0.908s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kbuf_id avail_pop()[m[K’:
+[0.909s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:144:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.909s]   144 |   int _v, v, [01;35m[Kv_[m[K; // pre-val, cur-val, post-val
+[0.909s]       |              [01;35m[K^~[m[K
+[0.909s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid* publisher(void*)[m[K’:
+[0.909s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:260:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kduration_cast<std::chrono::microseconds>(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&)[m[K’
+[0.909s]   260 | d::chrono::duration_cast<std::chrono::microseconds>(start[01;31m[K)[m[K;
+[0.909s]       |                                                          [01;31m[K^[m[K
+[0.910s] 
+[0.910s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:1[m[K:
+[0.910s] [01m[K/usr/include/c++/9/chrono:191:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ToDur, class _Rep, class _Period> constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const std::chrono::duration<_Rep, _Period>&)[m[K’
+[0.910s]   191 |       [01;36m[Kduration_cast[m[K(const duration<_Rep, _Period>& __d)
+[0.910s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[0.910s] [01m[K/usr/include/c++/9/chrono:191:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.910s] In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[0.910s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:260:80:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ is not derived from ‘[01m[Kconst std::chrono::duration<_Rep, _Period>[m[K’
+[0.910s]   260 | d::chrono::duration_cast<std::chrono::microseconds>(start[01;36m[K)[m[K;
+[0.910s]       |                                                          [01;36m[K^[m[K
+[0.910s] 
+[0.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[0.914s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:14:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.914s]    14 |    Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+[0.914s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.914s] 
+[0.921s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[0.921s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:33:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.921s]    33 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+[0.921s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[0.921s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[0.921s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:53:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.921s]    53 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+[0.922s]       |                     [01;35m[K~^~[m[K
+[0.922s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:56:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.922s]    56 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+[0.922s]       |                     [01;35m[K~^~[m[K
+[0.922s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[0.922s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:62:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.922s]    62 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+[0.922s]       |                     [01;35m[K~^~~[m[K
+[0.922s] [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:65:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.922s]    65 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+[0.923s]       |                     [01;35m[K~^~~[m[K
+[1.173s] make[2]: *** [CMakeFiles/topic.dir/build.make:115: CMakeFiles/topic.dir/src/topic.cpp.o] Error 1
+[1.173s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2
+[1.173s] make: *** [Makefile:141: all] Error 2
+[1.175s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_topic -- -j16 -l16

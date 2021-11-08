@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target topic_comp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/topic_comp.dir/src/topic_comp.cpp.o[0m
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:[m[K In lambda function:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:59:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   59 |         static int32_t [01;35m[Kcount[m[K = 0;
+      |                        [01;35m[K^~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_comp_topic/src/topic_comp.cpp:37:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   37 |   Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable topic_comp[0m
+[100%] Built target topic_comp
+-- Install configuration: ""
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/lib/cpp_comp_topic/topic_comp
+-- Set runtime path of "/home/fengqiyuan/dev_ws/install/cpp_comp_topic/lib/cpp_comp_topic/topic_comp" to ""
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_comp_topic
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_comp_topic
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/environment/path.sh
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/environment/path.dsv
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.bash
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.sh
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.zsh
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/local_setup.dsv
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/package.dsv
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/ament_index/resource_index/packages/cpp_comp_topic
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/cmake/cpp_comp_topicConfig.cmake
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/cmake/cpp_comp_topicConfig-version.cmake
+-- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_comp_topic/share/cpp_comp_topic/package.xml

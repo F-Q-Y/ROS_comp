@@ -1,0 +1,22 @@
+[0.266s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_prosub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_prosub -- -j16 -l16
+[0.807s] [100%] Built target producer_subscriber
+[0.814s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_prosub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_prosub -- -j16 -l16
+[0.835s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_prosub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_prosub
+[0.840s] -- Install configuration: ""
+[0.870s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/lib/cpp_prosub/producer_subscriber
+[0.870s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/ament_index/resource_index/package_run_dependencies/cpp_prosub
+[0.870s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/ament_index/resource_index/parent_prefix_path/cpp_prosub
+[0.871s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/environment/ament_prefix_path.sh
+[0.871s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/environment/ament_prefix_path.dsv
+[0.871s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/environment/path.sh
+[0.871s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/environment/path.dsv
+[0.871s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/local_setup.bash
+[0.871s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/local_setup.sh
+[0.871s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/local_setup.zsh
+[0.871s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/local_setup.dsv
+[0.871s] -- Installing: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/package.dsv
+[0.872s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/ament_index/resource_index/packages/cpp_prosub
+[0.873s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/cmake/cpp_prosubConfig.cmake
+[0.873s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/cmake/cpp_prosubConfig-version.cmake
+[0.873s] -- Up-to-date: /home/fengqiyuan/dev_ws/install/cpp_prosub/share/cpp_prosub/package.xml
+[0.874s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_prosub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_prosub

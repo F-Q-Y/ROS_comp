@@ -1,0 +1,2 @@
+Invoking command in '/home/fengqiyuan/dev_ws/src/cpp_prosub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_prosub -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/src/cpp_prosub/install/cpp_pubsub
+Invoked command in '/home/fengqiyuan/dev_ws/src/cpp_prosub/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_prosub -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/src/cpp_prosub/install/cpp_pubsub

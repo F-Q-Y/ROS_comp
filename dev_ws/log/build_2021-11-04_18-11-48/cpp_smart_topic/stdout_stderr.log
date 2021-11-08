@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fengqiyuan/dev_ws/build/cpp_smart_topic
+[35m[1mScanning dependencies of target topic_smart[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/topic_smart.dir/src/topic_smart.cpp.o[0m
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:18:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   18 |     Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:37:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   37 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:57:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   57 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:60:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   60 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:65:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   65 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+      |                     [01;35m[K~^~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:68:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   68 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+      |                     [01;35m[K~^~~[m[K
+[100%] [32m[1mLinking CXX executable topic_smart[0m
+[100%] Built target topic_smart
+-- Install configuration: ""
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart
+-- Set runtime path of "/home/fengqiyuan/dev_ws/install/cpp_smart_topic/lib/cpp_smart_topic/topic_smart" to ""
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/ament_index/resource_index/package_run_dependencies/cpp_smart_topic
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/ament_index/resource_index/parent_prefix_path/cpp_smart_topic
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.sh
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/ament_prefix_path.dsv
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.sh
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/environment/path.dsv
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.bash
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.sh
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.zsh
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/local_setup.dsv
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/package.dsv
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/ament_index/resource_index/packages/cpp_smart_topic
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig.cmake
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/cmake/cpp_smart_topicConfig-version.cmake
+-- Installing: /home/fengqiyuan/dev_ws/install/cpp_smart_topic/share/cpp_smart_topic/package.xml

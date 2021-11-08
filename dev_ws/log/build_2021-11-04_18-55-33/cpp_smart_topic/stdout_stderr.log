@@ -1,0 +1,48 @@
+[35m[1mScanning dependencies of target topic_smart[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/topic_smart.dir/src/topic_smart.cpp.o[0m
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:8[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:[m[K In function ‘[01m[Kvoid start_write(int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:49:59:[m[K [01;31m[Kerror: [m[Ktaking address of rvalue [[01;31m[K-fpermissive[m[K]
+   49 |     std::shared_ptr<int>* temp = &(std::make_shared<int>()[01;31m[K)[m[K;
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/smart_base.hpp:47:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   47 | void start_write([01;35m[Kint w[m[K){
+      |                  [01;35m[K~~~~^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:18:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   18 |    Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:38:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:59:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   59 |         printf("[01;35m[K%d[m[K %d\n",[32m[Km_[m[K,n_);
+      |                 [01;35m[K~^[m[K       [32m[K~~[m[K
+      |                  [01;35m[K|[m[K       [32m[K|[m[K
+      |                  [01;35m[Kint[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+      |                 [32m[K%ld[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:59:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   59 |         printf("%d [01;35m[K%d[m[K\n",m_,[32m[Kn_[m[K);
+      |                    [01;35m[K~^[m[K       [32m[K~~[m[K
+      |                     [01;35m[K|[m[K       [32m[K|[m[K
+      |                     [01;35m[Kint[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+      |                    [32m[K%ld[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:60:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   60 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:63:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   63 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:68:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   68 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+      |                     [01;35m[K~^~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_smart_topic/src/topic_smart.cpp:71:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   71 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+      |                     [01;35m[K~^~~[m[K
+make[2]: *** [CMakeFiles/topic_smart.dir/build.make:63: CMakeFiles/topic_smart.dir/src/topic_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic_smart.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

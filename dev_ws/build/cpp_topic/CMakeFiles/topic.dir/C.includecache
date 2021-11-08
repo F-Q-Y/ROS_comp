@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fengqiyuan/dev_ws/src/cpp_topic/src/bits_op.c
+bits_op.h
+/home/fengqiyuan/dev_ws/src/cpp_topic/src/bits_op.h
+
+/home/fengqiyuan/dev_ws/src/cpp_topic/src/bits_op.h
+

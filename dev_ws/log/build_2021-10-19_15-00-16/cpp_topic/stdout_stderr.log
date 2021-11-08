@@ -1,0 +1,453 @@
+[35m[1mScanning dependencies of target topic[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/topic.dir/src/topic.cpp.o[0m
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+    1 | #define N > [01;31m[K3[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+    1 | #define N > [01;31m[K3[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+    2 | #define M > [01;31m[K4[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+    2 | #define M > [01;31m[K4[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+    2 | #define M > [01;31m[K4[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+    2 | #define M > [01;31m[K4[m[K
+      |             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:[m[K In member function ‘[01m[Kvoid libstatistics_collector::topic_statistics_collector::ReceivedMessageAgeCollector<T>::OnMessageReceived(const T&, rcl_time_point_value_t)[m[K’:
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:104:40:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeStamp[m[K’ was not declared in this scope
+  104 |     const auto timestamp_from_header = [01;31m[KTimeStamp[m[K<T>::value(received_message);
+      |                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:104:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  104 |     const auto timestamp_from_header = TimeStamp<T[01;31m[K>[m[K::value(received_message);
+      |                                                   [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:104:54:[m[K [01;31m[Kerror: [m[K‘[01m[K::value[m[K’ has not been declared
+  104 |     const auto timestamp_from_header = TimeStamp<T>::[01;31m[Kvalue[m[K(received_message);
+      |                                                      [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:[m[K At global scope:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K([m[K’ token
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:25:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   25 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K-[m[K’ token
+    6 | #define Empty ([01;31m[K-[m[K1)
+      |                [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K-[m[K’ token
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result_kind.hpp:31:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   31 | [01;31m[K}[m[K  // namespace rclcpp
+      | [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/wait_set.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:157[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:8[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:[m[K In static member function ‘[01m[Kstatic rclcpp::WaitResult<WaitSetT> rclcpp::WaitResult<WaitSetT>::from_empty_wait_result_kind()[m[K’:
+[01m[K/opt/ros/foxy/include/rclcpp/wait_result.hpp:83:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+   83 |     return WaitResult[01;31m[K([m[KWaitResultKind::Empty);
+      |                      [01;31m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/sequential_synchronization.hpp:[m[K In member function ‘[01m[KWaitResultT rclcpp::wait_set_policies::SequentialSynchronization::sync_wait(std::chrono::nanoseconds, std::function<void()>, std::function<rcl_wait_set_t&()>, std::function<WaitResultT(rclcpp::WaitResultKind)>)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:[m[K In member function ‘[01m[KWaitResultT rclcpp::wait_set_policies::ThreadSafeSynchronization::sync_wait(std::chrono::nanoseconds, std::function<void()>, std::function<rcl_wait_set_t&()>, std::function<WaitResultT(rclcpp::WaitResultKind)>)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/wait_set_template.hpp:[m[K In lambda function:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:6:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+    6 | #define Empty [01;31m[K([m[K-1)
+      |               [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K At global scope:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:12:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+    3 | #define B ([01;36m[KN[m[K+2*M)
+      |            [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:33:14:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   33 | buffer *bufs[[01;36m[KB[m[K];
+      |              [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+    3 | #define B (N+2*[01;36m[KM[m[K)
+      |                [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:33:14:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   33 | buffer *bufs[[01;36m[KB[m[K];
+      |              [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:12:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+    3 | #define B ([01;36m[KN[m[K+2*M)
+      |            [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:37:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   37 | std::atomic<int> *read_count[[01;36m[KB[m[K];
+      |                              [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+    3 | #define B (N+2*[01;36m[KM[m[K)
+      |                [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:37:30:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   37 | std::atomic<int> *read_count[[01;36m[KB[m[K];
+      |                              [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:38:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+   38 | std::atomic<int> *comm[[01;36m[KM[m[K];
+      |                        [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:46:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+   46 | buf_id *reading[[01;36m[KN[m[K];
+      |                 [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:47:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+   47 | buf_id *writing[[01;36m[KM[m[K];
+      |                 [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid initialize_topic()[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:12:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+    3 | #define B ([01;36m[KN[m[K+2*M)
+      |            [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:50:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   50 |   for (int i = 0; i < [01;36m[KB[m[K; i++) {
+      |                       [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+    3 | #define B (N+2*[01;36m[KM[m[K)
+      |                [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:50:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   50 |   for (int i = 0; i < [01;36m[KB[m[K; i++) {
+      |                       [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbufs[m[K’ was not declared in this scope
+   51 |     [01;31m[Kbufs[m[K[i] = (buffer*)surely_malloc(sizeof(buffer));
+      |     [01;31m[K^~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:12:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+    3 | #define B ([01;36m[KN[m[K+2*M)
+      |            [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:4:25:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+    4 | #define MASK_B (((1) << [01;36m[KB[m[K) - 1)
+      |                         [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:55:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMASK_B[m[K’
+   55 |   *avail_map = [01;36m[KMASK_B[m[K - ((1 << M) - 1);
+      |                [01;36m[K^~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+    3 | #define B (N+2*[01;36m[KM[m[K)
+      |                [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:4:25:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+    4 | #define MASK_B (((1) << [01;36m[KB[m[K) - 1)
+      |                         [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:55:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMASK_B[m[K’
+   55 |   *avail_map = [01;36m[KMASK_B[m[K - ((1 << M) - 1);
+      |                [01;36m[K^~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:55:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+   55 |   *avail_map = MASK_B - ((1 << [01;36m[KM[m[K) - 1);
+      |                                [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:12:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+    3 | #define B ([01;36m[KN[m[K+2*M)
+      |            [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:56:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   56 |   for (int i = 0; i < [01;36m[KB[m[K; i++) {
+      |                       [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+    3 | #define B (N+2*[01;36m[KM[m[K)
+      |                [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:56:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   56 |   for (int i = 0; i < [01;36m[KB[m[K; i++) {
+      |                       [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kread_count[m[K’ was not declared in this scope
+   57 |     [01;31m[Kread_count[m[K[i] = (std::atomic<int> *)surely_malloc(sizeof(std::atomic<int>));
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:58:27:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+   58 |     *read_count[i] = (i < [01;36m[KM[m[K) ? 1 : 0;
+      |                           [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:60:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+   60 |   for (int i = 0; i < [01;36m[KM[m[K; i++) {
+      |                       [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomm[m[K’ was not declared in this scope
+   61 |     [01;31m[Kcomm[m[K[i] = (std::atomic<int>*)surely_malloc(sizeof(std::atomic<int>));
+      |     [01;31m[K^~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:62:21:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+   62 |     *comm[i] = i << [01;36m[KN[m[K;
+      |                     [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:77:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+   77 |   for (int i = 0; i < [01;36m[KN[m[K; i++) {
+      |                       [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kreading[m[K’ was not declared in this scope
+   78 |     [01;31m[Kreading[m[K[i] = (buf_id*)surely_malloc(sizeof(buf_id));
+      |     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:81:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+   81 |   for (int i = 0; i < [01;36m[KM[m[K; i++) {
+      |                       [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:82:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwriting[m[K’ was not declared in this scope
+   82 |     [01;31m[Kwriting[m[K[i] = (buf_id*)surely_malloc(sizeof(buf_id));
+      |     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kbuf_id avail_pop()[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:12:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+    3 | #define B ([01;36m[KN[m[K+2*M)
+      |            [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:98:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   98 |       if (b >= [01;36m[KB[m[K)
+      |                [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:3:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+    3 | #define B (N+2*[01;36m[KM[m[K)
+      |                [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:98:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KB[m[K’
+   98 |       if (b >= [01;36m[KB[m[K)
+      |                [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:94:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   94 |   int _v, v, [01;35m[Kv_[m[K; // pre-val, cur-val, post-val
+      |              [01;35m[K^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kint rc_set(int, int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:108:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kread_count[m[K’ was not declared in this scope
+  108 |   _v = [01;31m[Kread_count[m[K[b]->exchange(v);
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kint rc_dec(int, int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:115:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kread_count[m[K’ was not declared in this scope
+  115 |   _v = [01;31m[Kread_count[m[K[b]->fetch_sub(n);
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kint comm_set(int, int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:122:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomm[m[K’ was not declared in this scope
+  122 |   _v = [01;31m[Kcomm[m[K[w]->exchange(v);
+      |        [01;31m[K^~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kint comm_get(int, int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:129:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomm[m[K’ was not declared in this scope
+  129 |   _v = [01;31m[Kcomm[m[K[w]->fetch_and(~(1<<r));
+      |        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kbuf_id start_read(int, int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:144:15:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+  144 |     b = _v >> [01;36m[KN[m[K;
+      |               [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:146:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kreading[m[K’ was not declared in this scope
+  146 |   *[01;31m[Kreading[m[K[r] = b;
+      |    [01;31m[K^~~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid finish_read(int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:152:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kreading[m[K’ was not declared in this scope
+  152 |   buf_id b = *[01;31m[Kreading[m[K[r];
+      |               [01;31m[K^~~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kbuf_id get_loan(int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:160:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kwriting[m[K’ was not declared in this scope
+  160 |   *[01;31m[Kwriting[m[K[w] = b;
+      |    [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:161:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+  161 |   rc_set(b, [01;36m[KN[m[K + 1);
+      |             [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid publish(int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:166:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kwriting[m[K’ was not declared in this scope
+  166 |   int b = *[01;31m[Kwriting[m[K[w];
+      |            [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:167:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+  167 |   int v = (b << [01;36m[KN[m[K) | MASK_N;
+      |                 [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:5:25:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+    5 | #define MASK_N (((1) << [01;36m[KN[m[K) - 1)
+      |                         [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:167:22:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMASK_N[m[K’
+  167 |   int v = (b << N) | [01;36m[KMASK_N[m[K;
+      |                      [01;36m[K^~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:169:19:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+  169 |   int _b = (_v >> [01;36m[KN[m[K);
+      |                   [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:5:25:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+    5 | #define MASK_N (((1) << [01;36m[KN[m[K) - 1)
+      |                         [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:170:26:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMASK_N[m[K’
+  170 |   int n = count_one(_v & [01;36m[KMASK_N[m[K) + 1;
+      |                          [01;36m[K^~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid spin_once(int)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:177:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+  177 |   for (int w = 0; w < [01;36m[KM[m[K; w++) {
+      |                       [01;36m[K^[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:181:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbufs[m[K’ was not declared in this scope
+  181 |     int v = [01;31m[Kbufs[m[K[b]->data;
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:181:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  181 |     int [01;35m[Kv[m[K = bufs[b]->data;
+      |         [01;35m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:[m[K In function ‘[01m[Kvoid* publisher(void*)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:200:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbufs[m[K’ was not declared in this scope
+  200 |     [01;31m[Kbufs[m[K[b]->data = v;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KProducer::Producer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:17:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   17 |     Producer(const std::string & name, [01;35m[Kconst std::string & output[m[K, size_t w)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KConsumer::Consumer(const string&, const string&, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:36:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   36 |     Consumer(const std::string & name, [01;35m[Kconst std::string & input[m[K, size_t r)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic_base.hpp:4[m[K,
+                 from [01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:7[m[K:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K At global scope:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:2:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    2 | #define M [01;31m[K>[m[K 4
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:51:20:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KM[m[K’
+   51 |     Topic(size_t m=[01;36m[KM[m[K,size_t n=N){
+      |                    [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/def.h:1:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+    1 | #define N [01;31m[K>[m[K 3
+      |           [01;31m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:51:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KN[m[K’
+   51 |     Topic(size_t m=M,size_t n=[01;36m[KN[m[K){
+      |                               [01;36m[K^[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In constructor ‘[01m[KTopic::Topic(size_t, size_t)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:54:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   54 |         for(int i=0;[01;35m[Ki<m[m[K;i++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:57:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   57 |         for(int j=0;[01;35m[Kj<n[m[K;j++){
+      |                     [01;35m[K~^~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In member function ‘[01m[Kvoid Topic::run()[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:63:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   63 |         for(int i=0;[01;35m[Ki<m_[m[K;i++){
+      |                     [01;35m[K~^~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:66:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   66 |         for(int j=0;[01;35m[Kj<n_[m[K;j++){
+      |                     [01;35m[K~^~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:77:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   77 | int main([01;35m[Kint argc[m[K, char* argv[]){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/fengqiyuan/dev_ws/src/cpp_topic/src/topic.cpp:77:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   77 | int main(int argc, [01;35m[Kchar* argv[][m[K){
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/topic.dir/build.make:115: CMakeFiles/topic.dir/src/topic.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/topic.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

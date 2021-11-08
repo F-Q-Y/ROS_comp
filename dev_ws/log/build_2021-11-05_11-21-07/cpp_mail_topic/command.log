@@ -1,0 +1,4 @@
+Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_mail_topic -- -j16 -l16
+Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_mail_topic -- -j16 -l16
+Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_mail_topic
+Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_mail_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fengqiyuan/dev_ws/build/cpp_mail_topic

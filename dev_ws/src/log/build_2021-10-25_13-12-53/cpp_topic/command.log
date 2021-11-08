@@ -1,0 +1,2 @@
+Invoking command in '/home/fengqiyuan/dev_ws/src/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/src/install/cpp_topic
+Invoked command in '/home/fengqiyuan/dev_ws/src/build/cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/src/install/cpp_topic

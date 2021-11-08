@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_topic
+[0.021s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.035s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.164s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.187s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.190s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.303s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.304s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.449s] -- Configuring done
+[0.450s] CMake Error at CMakeLists.txt:26 (add_executable):
+[0.450s]   Cannot find source file:
+[0.450s] 
+[0.450s]     src/atomic_op.c
+[0.450s] 
+[0.450s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.450s]   .hpp .hxx .in .txx
+[0.450s] 
+[0.450s] 
+[0.450s] CMake Error at CMakeLists.txt:26 (add_executable):
+[0.451s]   No SOURCES given to target: topic
+[0.451s] 
+[0.451s] 
+[0.451s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.455s] Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fengqiyuan/dev_ws/src/cpp_topic -DCMAKE_INSTALL_PREFIX=/home/fengqiyuan/dev_ws/install/cpp_topic

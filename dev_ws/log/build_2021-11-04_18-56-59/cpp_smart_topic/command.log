@@ -1,0 +1,2 @@
+Invoking command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_smart_topic -- -j16 -l16
+Invoked command in '/home/fengqiyuan/dev_ws/build/cpp_smart_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/fengqiyuan/dev_ws/build/cpp_smart_topic -- -j16 -l16

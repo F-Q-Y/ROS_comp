@@ -1,0 +1,8 @@
+source;share/fengqy_package/hook/cmake_prefix_path.ps1
+source;share/fengqy_package/hook/cmake_prefix_path.dsv
+source;share/fengqy_package/hook/cmake_prefix_path.sh
+source;share/fengqy_package/local_setup.bash
+source;share/fengqy_package/local_setup.dsv
+source;share/fengqy_package/local_setup.ps1
+source;share/fengqy_package/local_setup.sh
+source;share/fengqy_package/local_setup.zsh
